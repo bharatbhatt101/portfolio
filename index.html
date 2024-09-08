@@ -1,0 +1,171 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <p class="port"></p>
+
+      <div class="i">
+        <i class="fa-solid fa-bars" id="aa" onclick="Open()"></i>
+        <i
+          class="fa-solid fa-xmark"
+          id="cls"
+          onclick="Close()"
+          style="display: none"
+        ></i>
+      </div>
+
+      <div id="uni">
+        <nav id="_uni">
+          <a href="">Intro</a>
+          <a href="#pro" onclick="Close()">Projects</a>
+          <a href="#abme" onclick="Close()">About</a>
+          <a href="#res" onclick="Close()">Resume</a>
+          <a href="#coon" onclick="Close()" style="border-bottom: none"
+            >Contact</a
+          >
+        </nav>
+      </div>
+      <nav id="main">
+        <!-- <p class="port">MY PORTFOLIO</p> -->
+        <a href="">Intro</a>
+        <a href="#pro">Projects</a>
+        <a href="#abme">About</a>
+        <a href="#res">Resume</a>
+        <a href="#coon">Contact</a>
+      </nav>
+    </div>
+
+    <div class="n">
+      <div class="pic">
+        <img src="img/bharat.jpg" alt="" />
+      </div>
+
+      <div class="name">
+        <h1 class="_na">Hello,My Name is</h1>
+        <p class="_user">Bharat Bhatt</p>
+      </div>
+    </div>
+
+    <div class="about" id="pro">
+      <h2 align="center" class="ame"></h2>
+      <div class="_text">
+        <div class="box">
+          <div><a href="" class="ap">E-Medical</a></div>
+          <div>
+            <b class="lang">HTML</b><b class="lang">CSS</b
+            ><b class="lang">JAVASCRIPT</b><b class="lang">PHP</b
+            ><b class="lang">MYSQL</b>
+            <!-- <a href=""><button>Open</button></a> -->
+          </div>
+        </div>
+
+        <div class="box">
+          <div><a href="" class="ap">Android App Clone</a></div>
+          <div><b class="lang">HTML</b><b class="lang">CSS</b></div>
+        </div>
+        <div class="box">
+          <div><a href="" class="ap">Spotify</a></div>
+          <div><b class="lang">HTML</b><b class="lang">CSS</b></div>
+        </div>
+        <div class="box" style="border-bottom: 0.1rem solid white">
+          <div><a href="" class="ap">Phone App</a></div>
+          <div>
+            <b class="lang">HTML</b><b class="lang">CSS</b
+            ><b class="lang">JAVASCRIPT</b>
+          </div>
+        </div>
+        <div><button class="batt">Show All Projects</button></div>
+      </div>
+    </div>
+    <div class="about" id="abme">
+      <h2 align="center" class="ame"></h2>
+      <div class="_text1">
+       <p> Hello there 👋, I am Bharat Bhatt, a highly frontend developer
+        with a wide range of expertise in web development and programming. I
+        have a strong foundation in essential web technologies such as HTML,
+        CSS, and JavaScript. I have built a reputation for delivering innovative
+        and functional web solutions. I have created various projects, including
+        "E-medical", "Android theams clone", "Spotify Clone", and some other
+        projects.</p>
+        <p>These achievements have instilled in me a sense of discipline and
+        perseverance, which I bring to every project I work on. I am excited to
+        bring my skills and experience to a new role and contribute to a team of
+        developers. </p>
+        <h1>Technologies</h1> 
+        <p class="mytech"><p>HTML</p><p>CSS</p><p>JAVASCRIPT</p>
+       <p>PHP</p> <p>MYSQL</p><p>C</p><p>C++</p><p>JAVA</p><p>Git</p></div>
+      </div>
+    </div>
+
+    <div class="about" id="res">
+      <h2 align="center" class="ame"></h2>
+      <div class="_text2">
+        <p></p>
+      </div>
+    </div>
+    <!-- <div class="m"> -->
+
+    <div class="about" id="coon">
+      <hr />
+
+      <div class="_text3">
+        <form action="index.html" method="get">
+          <label for="na">Name:</label><br />
+          <input
+            type="text"
+            namee="na"
+            class="in1"
+            placeholder="Name"
+            required
+          /><br />
+          <label for="mess">Message:</label><br />
+          <input
+            type="text"
+            name="mess"
+            class="in2"
+            placeholder="Your message"
+            required
+          /><br />
+          <a href="mailto//:bharatbhatt2003bk@gmail.com"
+            ><button class="in3">Submit</button></a
+          >
+        </form>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="facebook"><i class="fa-brands fa-facebook i1"></i></div>
+      <div class="github"><i class="fa-brands fa-github i1"></i></div>
+      <div class="gmail"><i class="fa-solid fa-envelope i1"></i></div>
+    </div>
+    <!-- </div> -->
+  </body>
+
+  <script>
+    function Open() {
+      uni.style.opacity = 1;
+      _uni.style.display = "flex";
+      aa.style.display = "none";
+      cls.style.display = "inline-block";
+    }
+
+    function Close() {
+      uni.style.opacity = 0;
+      _uni.style.display = "none";
+      aa.style.display = "inline-block";
+      cls.style.display = "none";
+    }
+  </script>
+</html>

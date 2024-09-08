@@ -1,0 +1,601 @@
+* {
+    margin: 0;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: "Roboto", sans-serif;
+
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #181212;
+}
+
+.header {
+    width: 100%;
+    height: 8rem;
+    background-color: #181818;
+    position: fixed;
+    /* display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align:center; */
+    top: 0;
+    left: 0;
+    margin-bottom: 1rem;
+
+
+}
+
+.port {
+    border: .1rem solid white;
+    border-radius: 50%;
+    width: 5rem;
+    background-image: url('img/bharat.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 5rem;
+    margin: 1.5rem;
+}
+
+#_uni {
+    display: none;
+}
+
+#main {
+    text-align: right;
+    /* margin-top: 2rem; */
+    margin-top: -6.5rem;
+
+}
+
+.i {
+    color: transparent;
+}
+
+i {
+
+    display: none;
+}
+
+
+#main a {
+
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 0rem 2rem;
+    margin-right: 4rem;
+}
+
+#main a:hover {
+
+    color: orange;
+    font-size: 2rem;
+    padding: 0rem 2rem;
+    margin-right: 4rem;
+}
+
+.pic {
+    width: 40rem;
+    border-radius: 50%;
+    margin-top: 12rem;
+
+    margin-right: 8rem;
+    float: right;
+
+
+
+}
+
+img {
+    width: 40rem;
+    border-radius: 50%;
+
+}
+
+._text {
+    /* border: .2rem solid white; */
+    margin: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    color: white;
+}
+
+
+.box {
+    width: 90%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 0rem;
+    /* margin: 1rem; */
+    border: .1rem solid white;
+    border-right: none;
+    border-left: none;
+    height: 6rem;
+}
+
+.box:hover {
+    width: 90%;
+    display: flex;
+    margin-top: 0rem;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    /* margin: 1rem; */
+    background-color: rgb(244, 184, 72);
+    cursor: pointer;
+    border: .1rem solid white;
+    border-right: none;
+    border-left: none;
+    height: 6rem;
+}
+
+.ap {
+    color: white;
+    text-decoration: none;
+    font-size: 4rem;
+}
+
+.lang {
+    border: .2rem solid white;
+    border-radius: 1rem;
+    padding: .5rem;
+    margin: 1.5rem;
+    color: white;
+}
+
+._text1 {
+    /* border: .2rem solid white; */
+    margin: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2rem;
+    padding: 1.5rem;
+    color: white;
+}
+
+._text2 {
+    /* border: .2rem solid white; */
+    margin: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    color: white;
+}
+
+._text3 {
+
+
+    margin: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.in1 {
+    width: 30rem;
+    padding-left: 2rem;
+    font-size: 2rem;
+    margin: 2rem;
+    height: 5rem;
+    /* position: relative; */
+    /* z-index:10; */
+    border-radius: 2rem;
+}
+
+.in2 {
+
+    padding-left: 2rem;
+    /* position: relative; */
+    font-size: 2rem;
+    /* z-index:10; */
+    text-align: start;
+    width: 30rem;
+    height: 10rem;
+    margin: 2rem;
+    border-radius: 2rem;
+
+
+}
+
+.in3 {
+    width: 30rem;
+    height: 4rem;
+    margin: 2rem;
+
+    cursor: pointer;
+    border-radius: 2rem;
+    border-radius: 1rem;
+    background-color: #19435d;
+    color: white;
+}
+
+.name {
+    padding: 10rem;
+
+
+
+}
+
+._text::before {
+    content: "Projects";
+    margin: 5rem;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+}
+
+._text1::before {
+    content: "About Me";
+
+    margin: 5rem;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+}
+
+._text2::before {
+    content: "Resume";
+
+    margin: 5rem;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+}
+
+.batt {
+    background-color: orange;
+    color: white;
+    border-radius: 2rem;
+    margin: 2.5rem;
+    cursor: pointer;
+    width: 15rem;
+    height: 4rem;
+}
+
+._text3::before {
+    content: "Contact Me";
+
+    margin: 5rem;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+}
+
+.about {
+    margin-top: 45rem;
+}
+
+/* .ame {
+    
+    font-size: 3rem;
+    color:transparent;
+    display:none;
+
+} */
+
+
+
+._na {
+    color: white;
+    margin-top: 8rem;
+    font-size: 5rem;
+}
+
+._user {
+
+    color: orange;
+    font-size: 7.5rem;
+}
+
+label {
+    margin-left: 2.2rem;
+
+    font-size: 2rem;
+}
+
+i {
+
+    padding: .5rem;
+    /* margin-top: 1rem; */
+
+}
+
+i:hover {
+    cursor: pointer;
+    color: orange;
+    padding: .5rem;
+
+}
+
+.footer {
+    width: 100%;
+    height: 6rem;
+    margin-bottom: 2.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+
+.footer .i1 {
+    color: white;
+    font-size: 2.6rem;
+
+}
+
+@media screen and (max-width:866px) {
+    * {
+        margin: 0;
+        padding: 0;
+        /* appearance:none; */
+    }
+
+    html {
+        font-size: 55%;
+    }
+
+    #main a {
+
+        display: none;
+    }
+
+    .pic {
+        width: 25rem;
+        border-radius: 50%;
+        margin-left: 7rem;
+        margin-top: 15rem;
+    }
+
+    img {
+        width: 25rem;
+        border-radius: 50%;
+
+    }
+
+    /* .box {
+        width: 90%;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        flex-direction: row;
+        margin-top: 0rem;
+        
+        border: .1rem solid white;
+        border-right: none;
+        border-left: none;
+        height: 6rem;
+    }
+    
+    .box:hover {
+        width: 90%;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        flex-direction: row;
+        margin-top: 0rem;
+    
+        background-color: rgb(244, 184, 72);
+        cursor: pointer;
+        border: .1rem solid white;
+        border-right: none;
+        border-left: none;
+        height: 6rem;
+    } */
+
+
+
+    .name {
+        padding: .5rem;
+
+
+
+
+    }
+
+    .in1 {
+
+
+        font-size: 1.5rem;
+        /* position: relative;
+        z-index:10; */
+        border-radius: 1rem;
+    }
+
+    .in2 {
+
+
+        border-radius: 1rem;
+        font-size: 1.5rem;
+
+
+    }
+
+    .in3 {
+        width: 30rem;
+        height: 4rem;
+        cursor: pointer;
+        border-radius: 1rem;
+        background-color: #19435d;
+        color: white;
+    }
+
+    ._na {
+        color: white;
+        margin: 2.5rem;
+        font-size: 5rem;
+    }
+
+    .n {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    ._user {
+
+        color: orange;
+        font-size: 5.5rem;
+    }
+
+
+    /* .port {
+        
+        text-align: left;
+        border:.1rem solid white;
+    } */
+
+    ._text {
+        margin: 4rem;
+        font-size: 1.5rem;
+        padding: 1.5rem;
+        color: white;
+    }
+
+    ._text1 {
+        margin: 4rem;
+        font-size: 1.5rem;
+        padding: 1.5rem;
+        color: white;
+    }
+
+    ._text2 {
+        margin: 4rem;
+        font-size: 1.5rem;
+        padding: 1.5rem;
+        color: white;
+    }
+
+    ._text3 {
+        margin: 4rem;
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        padding: 1.5rem;
+        color: white;
+    }
+
+
+    .about {
+        margin-top: 27rem;
+    }
+
+    .ame {
+        margin: 5rem;
+        border: .1rem solid transparent;
+        padding: 2rem;
+        text-align: center;
+        color: white;
+
+    }
+
+    .i {
+        text-align: right;
+        color: white;
+        margin-top: -8.5rem;
+        margin-right: 3.5rem;
+        font-size: 3rem;
+    }
+
+    nav {
+        text-align: right;
+        /* margin-top: 2rem; */
+        /* margin-top:-6.5rem; */
+
+    }
+
+    nav a {
+
+        color: white;
+        font-size: 2rem;
+        text-decoration: none;
+        padding: 0rem 2rem;
+        margin-right: 4rem;
+    }
+
+    nav a:hover {
+
+        color: orange;
+        font-size: 2rem;
+        padding: 0rem 2rem;
+        margin-right: 4rem;
+    }
+
+    #uni {
+        width: 100%;
+        height: 42rem;
+        opacity: 0;
+        margin-top: 2rem;
+        background-color: #181212;
+    }
+
+    #_uni {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    #_uni a {
+        padding: 3rem;
+        border: .2rem solid white;
+        width: 100%;
+
+    }
+
+    i {
+
+        padding: .5rem;
+        margin-top: 2rem;
+
+    }
+
+    i:hover {
+        cursor: pointer;
+        color: orange;
+        padding: .5rem;
+
+    }
+
+    .footer {
+        width: 100%;
+        height: 6rem;
+        margin-bottom: 2.5rem;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .footer .i1 {
+        color: white;
+        margin: 2.5rem;
+        font-size: 2.6rem;
+
+    }
+
+}
