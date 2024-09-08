@@ -376,8 +376,9 @@ i:hover {
         display: flex;
         justify-content: left;
         align-items: center;
-        flex-direction: row;
+        flex-direction:column;
         margin-top: 0rem;
+        padding:2.5rem;
         
         border: .1rem solid white;
         border-right: none;
@@ -389,8 +390,9 @@ i:hover {
         width: 70%;
         display: flex;
         justify-content: left;
+        padding:2rem;
         align-items: center;
-        flex-direction: row;
+        flex-direction:column;
         margin-top: 0rem;
     
         background-color: rgb(244, 184, 72);
@@ -501,14 +503,20 @@ i:hover {
     .ap {
         color: white;
         text-decoration: none;
-        font-size: 2rem;
+        font-size: 2.3rem;
+        
+    }
+
+    .nig
+    {
+
+        margin-top:2rem;
     }
     
     .lang {
         border: .2rem solid white;
         border-radius: 1rem;
-        padding: .5rem;
-        margin: 1rem;
+        padding:.5rem;
         color: white;
     }
 
