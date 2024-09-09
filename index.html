@@ -1,7 +1,7 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
+    <title>Bharat Bhatt-Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link
       rel="stylesheet"
@@ -17,6 +17,7 @@
       <p class="port"></p>
 
       <div class="i">
+        <a class="hire" onclick="hm()">Hire me</a>
         <i class="fa-solid fa-bars" id="aa" onclick="Open()"></i>
         <i
           class="fa-solid fa-xmark"
@@ -39,6 +40,7 @@
       </div>
       <nav id="main">
         <!-- <p class="port">MY PORTFOLIO</p> -->
+        <a class="hire" onclick="hm()">Hire me</a>
         <a href="">Intro</a>
         <a href="#pro">Projects</a>
         <a href="#abme">About</a>
@@ -92,27 +94,40 @@
     <div class="about" id="abme">
       <h2 align="center" class="ame"></h2>
       <div class="_text1">
-       <p class="hi"> Hello there 👋, I am <user class="user">Bharat Bhatt</user>, a highly frontend developer
-        with a wide range of expertise in web development and programming. I
-        have a strong foundation in essential web technologies such as HTML,
-        CSS, and JavaScript. I have built a reputation for delivering innovative
-        and functional web solutions. I have created various projects, including
-        "E-medical", "Android theams clone", "Spotify Clone", and some other
-        projects.</p>
-        <p class="hi1">These achievements have instilled in me a sense of discipline and
-        perseverance, which I bring to every project I work on. I am excited to
-        bring my skills and experience to a new role and contribute to a team of
-        developers. </p>
-        <h1 class="tech">Technologies</h1> 
-        <div class="mytech"><p class="tec1">HTML</p><p class="tec1">CSS</p><p class="tec1">JAVASCRIPT</p>
-       <p class="tec1">PHP</p> <p class="tec1">MYSQL</p><p class="tec1">C</p><p class="tec1">C++</p><p class="tec1">JAVA</p><p class="tec1">Git</p></div>
+        <p class="hi">
+          Hello there 👋, I am <user class="user">Bharat Bhatt</user>, a highly
+          frontend developer with a wide range of expertise in web development
+          and programming. I have a strong foundation in essential web
+          technologies such as HTML, CSS, and JavaScript. I have built a
+          reputation for delivering innovative and functional web solutions. I
+          have created various projects, including "E-medical", "Android theams
+          clone", "Spotify Clone", and some other projects.
+        </p>
+        <p class="hi1">
+          These achievements have instilled in me a sense of discipline and
+          perseverance, which I bring to every project I work on. I am excited
+          to bring my skills and experience to a new role and contribute to a
+          team of developers.
+        </p>
+        <h1 class="tech">Technologies</h1>
+        <div class="mytech">
+          <p class="tec1" id="htm" onclick="html()">HTML</p>
+          <p class="tec1" id="css" onclick="cs()">CSS</p>
+          <p class="tec1" id="jav" onclick="js()">JAVASCRIPT</p>
+          <p class="tec1" id="php" onclick="ph()">PHP</p>
+          <p class="tec1" id="mys" onclick="mysq()">MYSQL</p>
+          <p class="tec1" id="cl" onclick="ca()">C</p>
+          <p class="tec1" id="cll" onclick="caa()">C++</p>
+          <p class="tec1" id="ja" onclick="java()">JAVA</p>
+          <p class="tec1" id="gi" onclick="git()">Git</p>
+        </div>
       </div>
     </div>
 
     <div class="about" id="res">
       <h2 align="center" class="ame"></h2>
       <div class="_text2">
-        <p></p>
+        <div class="resbox"></div>
       </div>
     </div>
     <!-- <div class="m"> -->
@@ -138,7 +153,7 @@
             placeholder="Your message"
             required
           /><br />
-          <a href="mailto//:bharatbhatt2003bk@gmail.com"
+          <a href="mailto:bharatbhatt2003bk@gmail.com"
             ><button class="in3">Submit</button></a
           >
         </form>
@@ -166,6 +181,50 @@
       _uni.style.display = "none";
       aa.style.display = "inline-block";
       cls.style.display = "none";
+    }
+
+    function html() {
+      htm.style.background = "red";
+    }
+
+    function cs() {
+      css.style.background = "blue";
+    }
+
+    function js() {
+      jav.style.background = "yellow";
+      jav.style.color = "black";
+    }
+
+    function ph() {
+      php.style.background = "purple";
+    }
+
+    function mysq() {
+      mys.style.background = "orange";
+    }
+
+    function ca() {
+      cl.style.background = "blue";
+    }
+
+    function caa() {
+      cll.style.background = "blue";
+    }
+
+    function java() {
+      ja.style.background = "red";
+    }
+
+    function git() {
+      gi.style.background = "white";
+      gi.style.color = "black";
+    }
+
+    function hm() {
+      alert(
+        "Thankyou for your interest!\n\nSorry to say that currently I am not available on hiring platforms.\n\nHowever you can reach out to me through the contact section on my portfolio website.\n\nAnd I am also bind my resume in below(resume section). "
+      );
     }
   </script>
 </html>
