@@ -684,6 +684,7 @@ i:hover {
     }
     
     #_uni a {
+        display: none;
         padding: 3rem;
         display: inline-block;
         border: .2rem solid white;
