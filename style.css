@@ -41,27 +41,26 @@ body {
     margin: 1.5rem;
 }
 
-#_uni  {
+#_uni a {
     display: none;
-    
+
 }
 
 #main {
     text-align: right;
-    /* margin-top: 2rem; */
     margin-top: -6.5rem;
 
 }
 
 .i {
     color: transparent;
-    
+
 }
 
 i {
 
     display: none;
-    
+
 }
 
 
@@ -72,29 +71,30 @@ i {
     text-decoration: none;
     padding: 0rem 2rem;
     margin-right: 4rem;
+
 }
 
 #main .hire {
 
-     border:.2rem solid orange;
-     background-color:orange;
-     font-size:1.7rem;
-     padding: 0.8rem;
-     color:black;
-     border-radius:2rem;
-    
+    border: .2rem solid orange;
+    background-color: orange;
+    font-size: 1.7rem;
+    padding: 0.8rem;
+    color: black;
+    border-radius: 2rem;
+
 }
 
 #main .hire:hover {
 
-    border:.2rem solid orange;
-    background-color:orange;
-    font-size:1.7rem;
+    border: .2rem solid orange;
+    background-color: orange;
+    font-size: 1.7rem;
     padding: 0.8rem;
     cursor: pointer;
-    color:black;
-    border-radius:2rem;
-   
+    color: black;
+    border-radius: 2rem;
+
 }
 
 #main a:hover {
@@ -124,7 +124,7 @@ img {
 }
 
 ._text {
-    /* border: .2rem solid white; */
+
     margin: 6rem;
     display: flex;
     justify-content: center;
@@ -143,7 +143,7 @@ img {
     align-items: center;
     flex-direction: row;
     margin-top: 0rem;
-    padding:2rem;
+    padding: 2rem;
     border: .1rem solid white;
     border-right: none;
     border-left: none;
@@ -181,7 +181,7 @@ img {
 }
 
 ._text1 {
-    /* border: .2rem solid white; */
+
     margin: 50rem;
     display: flex;
     justify-content: center;
@@ -193,7 +193,7 @@ img {
 }
 
 ._text2 {
-    /* border: .2rem solid white; */
+
     margin: 30rem;
     display: flex;
     justify-content: center;
@@ -222,17 +222,13 @@ img {
     font-size: 2rem;
     margin: 2rem;
     height: 5rem;
-    /* position: relative; */
-    /* z-index:10; */
     border-radius: 2rem;
 }
 
 .in2 {
 
     padding-left: 2rem;
-    /* position: relative; */
     font-size: 2rem;
-    /* z-index:10; */
     text-align: start;
     width: 30rem;
     height: 10rem;
@@ -242,12 +238,11 @@ img {
 
 }
 
-.resbox
-{
-     border:.2rem solid white;
-     width:90%;
-     height:60rem;
-     background-image:url('');
+.resbox {
+    border: .2rem solid white;
+    width: 90%;
+    height: 60rem;
+    background-image: url('');
 }
 
 .in3 {
@@ -269,47 +264,41 @@ img {
 
 }
 
-.hi
-{ 
-    font-size:2rem;
-     
+.hi {
+    font-size: 2rem;
+
 }
 
-.user
-{
-     color:orange;
+.user {
+    color: orange;
 }
 
-.tech
-{
-    margin-top:3.5rem;
-    margin-bottom:3.5rem;
+.tech {
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
 }
 
-.mytech
-{
+.mytech {
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     text-align: center;
     align-items: center;
 }
 
-.tec1
-{
-    padding:1.5rem;
-    width:9rem;
-    font-size:1.5rem;
-    margin:1rem;
-    border:.2rem solid white;
-    border-radius:3rem;
+.tec1 {
+    padding: 1.5rem;
+    width: 9rem;
+    font-size: 1.5rem;
+    margin: 1rem;
+    border: .2rem solid white;
+    border-radius: 3rem;
 }
 
-.hi1
-{ 
-    margin-top:1.5rem;
-    font-size:2rem;
-     
+.hi1 {
+    margin-top: 1.5rem;
+    font-size: 2rem;
+
 }
 
 ._text::before {
@@ -345,10 +334,10 @@ img {
     text-align: center;
     margin: 4rem;
     cursor: pointer;
-    font-size:2rem;
-    padding:2rem;
-    border:.2rem solid white;
-    
+    font-size: 2rem;
+    padding: 2rem;
+    border: .2rem solid white;
+
 }
 
 ._text3::before {
@@ -396,7 +385,7 @@ label {
 i {
 
     padding: .5rem;
-    /* margin-top: 1rem; */
+
 
 }
 
@@ -410,9 +399,8 @@ i:hover {
 .footer {
     width: 100%;
     height: 6rem;
-    /* margin-bottom: 2.5rem; */
     display: flex;
-    justify-content:center;
+    justify-content: center;
     text-align: center;
     align-items: center;
 }
@@ -420,9 +408,9 @@ i:hover {
 .footer .i1 {
     color: white;
     font-size: 2.6rem;
-    margin-top:-3rem;
-    margin-right:3rem;
-    margin-left:3rem;
+    margin-top: -3rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
     margin-bottom: 3rem;
 
 
@@ -442,7 +430,7 @@ i:hover {
     #main a {
 
         display: none;
-        opacity:0;
+        opacity: 0;
     }
 
     .pic {
@@ -463,26 +451,24 @@ i:hover {
         display: flex;
         justify-content: left;
         align-items: center;
-        flex-direction:column;
+        flex-direction: column;
         margin-top: 0rem;
-        padding:2.5rem;
-        /* z-index:1; */
+        padding: 2.5rem;
         border: .1rem solid white;
         border-right: none;
         border-left: none;
         height: 6rem;
     }
-    
+
     .box:hover {
         width: 100%;
-        /* z-index:10; */
         display: flex;
         justify-content: left;
-        padding:2rem;
+        padding: 2.5rem;
         align-items: center;
-        flex-direction:column;
+        flex-direction: column;
         margin-top: 0rem;
-    
+
         background-color: rgb(244, 184, 72);
         cursor: pointer;
         border: .1rem solid white;
@@ -505,8 +491,7 @@ i:hover {
 
 
         font-size: 1.5rem;
-        /* position: relative;*/
-        z-index:10; 
+        z-index: 10;
         border-radius: 1rem;
     }
 
@@ -592,19 +577,18 @@ i:hover {
         color: white;
         text-decoration: none;
         font-size: 2.3rem;
-        
+
     }
 
-    .nig
-    {
+    .nig {
 
-        margin-top:2rem;
+        margin-top: 2rem;
     }
-    
+
     .lang {
         border: .2rem solid white;
         border-radius: 1rem;
-        padding:.5rem;
+        padding: .5rem;
         color: white;
     }
 
@@ -629,63 +613,54 @@ i:hover {
         font-size: 3rem;
     }
 
-    nav {
-        text-align: right;
-        /* margin-top: 2rem; */
-        /* margin-top:-6.5rem; */
 
-    }
-
-    nav a {
-
-        color: white;
-        font-size: 2rem;
-        text-decoration: none;
-        padding: 0rem 2rem;
-        margin-right: 4rem;
-    }
-
-    nav a:hover {
+    #_uni a:hover {
 
         color: orange;
         font-size: 2rem;
-        padding: 0rem 2rem;
+        padding: 3rem;
         margin-right: 4rem;
     }
 
     #uni {
         width: 100%;
         height: 42rem;
-       display: none;
+        display: none;
         margin-top: 2rem;
         background-color: #181212;
     }
 
     #_uni {
         display: none;
+        width: 100%;
+        height: 42rem;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
-        
+
     }
-    
+
     .hire {
-        
-        border:.2rem solid orange;
-        background-color:orange;
-        font-size:1.7rem;
+
+        border: .2rem solid orange;
+        background-color: orange;
+        font-size: 1.7rem;
         cursor: pointer;
-        margin-right:9rem;
+        margin-right: 9rem;
         padding: 0.8rem;
-        color:black;
-        border-radius:2rem;
-        
+        color: black;
+        border-radius: 2rem;
+
     }
-    
+
     #_uni a {
-        display: none;
+
         padding: 3rem;
+        color: white;
+        font-size: 2rem;
+        text-decoration: none;
+        margin-right: 4rem;
         display: inline-block;
         border: .2rem solid white;
         width: 100%;
@@ -725,32 +700,31 @@ i:hover {
 
 }
 
-@media screen and (max-width:470px)
-{
+@media screen and (max-width:470px) {
     .box {
         width: 90%;
         display: flex;
         justify-content: left;
         align-items: center;
-        flex-direction:column;
+        flex-direction: column;
         margin-top: 0rem;
-        padding:2.5rem;
-        
+        padding: 2.5rem;
+
         border: .1rem solid white;
         border-right: none;
         border-left: none;
         height: 6rem;
     }
-    
+
     .box:hover {
         width: 90%;
         display: flex;
         justify-content: left;
-        padding:2rem;
+        padding: 2rem;
         align-items: center;
-        flex-direction:column;
+        flex-direction: column;
         margin-top: 0rem;
-    
+
         background-color: rgb(244, 184, 72);
         cursor: pointer;
         border: .1rem solid white;
@@ -758,25 +732,24 @@ i:hover {
         border-left: none;
         height: 6rem;
     }
-    
+
     .ap {
         color: white;
         text-decoration: none;
         font-size: 2.3rem;
-        
+
     }
 
-    .nig
-    {
+    .nig {
 
-        margin-top:2rem;
+        margin-top: 2rem;
     }
-    
+
     .lang {
         display: none;
         border: .2rem solid white;
         border-radius: 1rem;
-        padding:.5rem;
+        padding: .5rem;
         color: white;
     }
-} 
+}
