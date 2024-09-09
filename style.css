@@ -241,8 +241,29 @@ img {
 .resbox {
     border: .2rem solid white;
     width: 90%;
-    height: 60rem;
+    height: 6rem;
     background-image: url('');
+    padding:9rem; 
+}
+
+.resbox a
+{
+    text-decoration:none;
+    margin:5rem; 
+    color:white;
+    
+
+    font-size:6rem;
+}
+
+.resbox a:hover
+{
+    text-decoration:none;
+    margin:5rem; 
+    color:orange;
+    
+
+    font-size:6rem;
 }
 
 .in3 {
@@ -666,6 +687,35 @@ i:hover {
         width: 100%;
 
     }
+
+    .resbox {
+        border: .2rem solid white;
+        width: 90%;
+        height: 6rem;
+        background-image: url('');
+        padding:9rem; 
+    }
+    
+    .resbox a
+    {
+        text-decoration:none;
+        margin:5rem; 
+        color:white;
+        
+    
+        font-size:5rem;
+    }
+    
+    .resbox a:hover
+    {
+        text-decoration:none;
+        margin:5rem; 
+        color:orange;
+        
+    
+        font-size:5rem;
+    }
+    
 
     i {
 
