@@ -63,7 +63,7 @@
     <div class="about" id="pro">
       <h2 align="center" class="ame"></h2>
       <div class="_text">
-        <div class="box">
+        <div class="box" onclick="pro1()">
           <div><a href="" class="ap">E-Medical</a></div>
           <div class="nig">
             <b class="lang">HTML</b><b class="lang">CSS</b
@@ -73,15 +73,15 @@
           </div>
         </div>
 
-        <div class="box">
+        <div class="box"  onclick="pro2()">
           <div><a href="" class="ap">Android App Clone</a></div>
           <div class="nig"><b class="lang">HTML</b><b class="lang">CSS</b></div>
         </div>
-        <div class="box">
+        <div class="box" onclick="pro3()">
           <div><a href="" class="ap">Spotify</a></div>
           <div class="nig"><b class="lang">HTML</b><b class="lang">CSS</b></div>
         </div>
-        <div class="box" style="border-bottom: 0.1rem solid white">
+        <div class="box" style="border-bottom: 0.1rem solid white" onclick="pro4()">
           <div><a href="" class="ap">Phone App</a></div>
           <div class="nig">
             <b class="lang">HTML</b><b class="lang">CSS</b
@@ -136,7 +136,7 @@
       <hr />
 
       <div class="_text3">
-        <form action="index.html" method="get">
+        <form  method="get">
           <label for="na">Name:</label><br />
           <input
             type="text"
@@ -170,14 +170,14 @@
 
   <script>
     function Open() {
-      uni.style.opacity = 1;
-      _uni.style.display = "flex";
+      uni.style.display ="inline-block";
+      _uni.style.display = "inline-block";
       aa.style.display = "none";
       cls.style.display = "inline-block";
     }
 
     function Close() {
-      uni.style.opacity = 0;
+      uni.style.display ="none";
       _uni.style.display = "none";
       aa.style.display = "inline-block";
       cls.style.display = "none";
@@ -225,6 +225,26 @@
       alert(
         "Thankyou for your interest!\n\nSorry to say that currently I am not available on hiring platforms.\n\nHowever you can reach out to me through the contact section on my portfolio website.\n\nAnd I am also bind my resume in below(resume section). "
       );
+    }
+
+    function pro1()
+    {
+       window.location.href="";
+    }
+
+    function pro2()
+    {
+       window.location.href="https://bharatbhatt101.github.io/App.in/";
+    }
+
+    function pro3()
+    {
+       window.location.href="https://bharatbhatt101.github.io/spotify.in/";
+    }
+
+    function pro4()
+    {
+       window.location.href="https://bharatbhatt101.github.io/phone.in/";
     }
   </script>
 </html>
