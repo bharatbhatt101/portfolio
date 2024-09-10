@@ -1,7 +1,7 @@
 * {
     margin: 0;
-    /* font-family: Arial, Helvetica, sans-serif; */
-    font-family: "Roboto", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: "Roboto", sans-serif; */
 
 }
 
@@ -41,38 +41,6 @@ body {
     margin: 1.5rem;
 }
 
-#_uni a {
-    display: none;
-
-}
-
-#main {
-    text-align: right;
-    margin-top: -6.5rem;
-
-}
-
-.i {
-    color: transparent;
-
-}
-
-i {
-
-    display: none;
-
-}
-
-
-#main a {
-
-    color: white;
-    font-size: 2rem;
-    text-decoration: none;
-    padding: 0rem 2rem;
-    margin-right: 4rem;
-
-}
 
 #main .hire {
 
@@ -87,7 +55,7 @@ i {
 
 #main .hire:hover {
 
-    border: .2rem solid orange;
+    border: .2rem solid white;
     background-color: orange;
     font-size: 1.7rem;
     padding: 0.8rem;
@@ -96,6 +64,21 @@ i {
     border-radius: 2rem;
 
 }
+#main {
+    text-align: right;
+    margin-top: -6.5rem;
+
+}
+#main a {
+
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 0rem 2rem;
+    margin-right: 4rem;
+
+}
+
 
 #main a:hover {
 
@@ -105,8 +88,29 @@ i {
     margin-right: 4rem;
 }
 
+#_uni a {
+    display: none;
+
+}
+
+
+.i {
+    color: transparent;
+    
+
+}
+
+
+i {
+
+    display: none;
+
+}
+
+
+
 .pic {
-    width: 40rem;
+    width: 55rem;
     border-radius: 50%;
     margin-top: 12rem;
 
@@ -118,7 +122,7 @@ i {
 }
 
 img {
-    width: 40rem;
+    width: 55rem;
     border-radius: 50%;
 
 }
@@ -242,7 +246,6 @@ img {
     border: .2rem solid white;
     width: 90%;
     height: 6rem;
-    background-image: url('');
     padding:9rem; 
 }
 
@@ -306,17 +309,18 @@ img {
 
 .mytech {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
     text-align: center;
     align-items: center;
 }
 
 .tec1 {
-    padding: 1.5rem;
-    width: 9rem;
-    font-size: 1.5rem;
-    margin: 1rem;
+    padding: 1.6rem;
+    cursor: pointer;
+    width: 8rem;
+    font-size: 1.4rem;
+    margin:1rem;
     border: .2rem solid white;
     border-radius: 3rem;
 }
@@ -349,17 +353,23 @@ img {
 }
 
 .batt {
-    background-color: orange;
+    background-color:grey;
     color: white;
     border-radius: 2rem;
     text-align: center;
     margin: 4rem;
     cursor: pointer;
     font-size: 2rem;
-    padding: 2rem;
+    padding: 1.5rem;
     border: .2rem solid white;
 
 }
+
+.batt:hover
+    {
+        background-color:orange;
+    
+    }
 
 ._text3::before {
     content: "Contact Me";
@@ -383,11 +393,18 @@ img {
 } */
 
 
+hr
+{
+    background-color:orange;
+    padding-bottom:2rem;
+
+    
+}
 
 ._na {
     color: white;
     margin-top: 8rem;
-    font-size: 5rem;
+    font-size: 8rem;
 }
 
 ._user {
@@ -445,7 +462,7 @@ i:hover {
     }
 
     html {
-        font-size: 55%;
+        font-size: 52%;
     }
 
     #main a {
@@ -469,10 +486,13 @@ i:hover {
 
     .hi {
         font-size: 2rem;
-        
+        margin-left: 2.5rem;
+        margin-right:2.5rem ;
     }
     
     .hi1 {
+        margin-left: 2.5rem;
+        margin-right:2.5rem ;
         margin-top: 1.5rem;
         font-size: 2rem;
     
@@ -480,10 +500,16 @@ i:hover {
 
     .mytech {
         display: flex;
-        justify-content: space-evenly;
+        justify-content:center;
         flex-wrap: wrap;
+        margin:5rem;
         text-align: center;
-        align-items: center;
+        align-items:center;
+    }
+
+    .tech {
+        margin-top: 5.5rem;
+        margin-bottom: -2rem;
     }
 
     .tec1 {
@@ -491,6 +517,7 @@ i:hover {
         width: 9rem;
         font-size: 1.5rem;
         margin: 1rem;
+
         border: .2rem solid white;
         border-radius: 3rem;
     }
@@ -588,6 +615,14 @@ i:hover {
         text-align: left;
         border:.1rem solid white;
     } */
+
+    hr
+    {
+        background-color:orange;
+        padding-bottom:2rem;
+
+        
+    }
 
     ._text {
         margin: 4rem;
@@ -703,6 +738,19 @@ i:hover {
 
     }
 
+    .hire:hover {
+
+        border: .2rem solid white;
+        background-color: orange;
+        font-size: 1.7rem;
+        cursor: pointer;
+        margin-right: 9rem;
+        padding: 0.8rem;
+        color: black;
+        border-radius: 2rem;
+
+    }
+
     #_uni a {
 
         padding: 3rem;
@@ -718,7 +766,7 @@ i:hover {
 
 
     .batt {
-        background-color: orange;
+        background-color:grey;
         color: white;
         border-radius: 2rem;
         text-align: center;
@@ -730,12 +778,19 @@ i:hover {
     
     }
 
+    .batt:hover
+    {
+        background-color:orange;
+    
+    }
+
     .resbox {
         border: .2rem solid white;
-        width: 90%;
-        height: 6rem;
-        background-image: url('');
-        padding:9rem; 
+    
+        margin-left:5rem ;
+        margin-right:5rem ;
+        height: 5rem;
+        padding:6rem; 
     }
     
     .resbox a
@@ -829,7 +884,20 @@ i:hover {
     }
 
     .batt {
-        background-color: orange;
+        background-color:grey;
+        color: white;
+        border-radius: 2rem;
+        text-align: center;
+        margin: 4rem;
+        cursor: pointer;
+        font-size: 1.6rem;
+        padding: 1.6rem;
+        border: .2rem solid white;
+    
+    }
+
+    .batt:hover {
+        background-color:orange;
         color: white;
         border-radius: 2rem;
         text-align: center;
@@ -1025,6 +1093,19 @@ i:hover {
 
     }
 
+    .hire {
+
+        border: .2rem solid white;
+        background-color: orange;
+        font-size: 1.7rem;
+        cursor: pointer;
+        margin-right: 9rem;
+        padding: 0.8rem;
+        color: black;
+        border-radius: 2rem;
+
+    }
+
     #_uni a {
 
         padding: 3rem;
@@ -1093,7 +1174,7 @@ i:hover {
     }
     .resbox {
         border: .2rem solid white;
-        width: 100%;
+    
         margin:6rem;
         height: 6rem;
         padding:4rem; 
@@ -1119,6 +1200,14 @@ i:hover {
         font-size:3rem;
     }
     
+    hr
+{
+    background-color:orange;
+    padding-bottom:2rem;
+
+    
+}
+ 
 
     i {
 
