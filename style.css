@@ -287,9 +287,14 @@ img {
 
 .hi {
     font-size: 2rem;
-
+    
 }
 
+.hi1 {
+    margin-top: 1.5rem;
+    font-size: 2rem;
+
+}
 .user {
     color: orange;
 }
@@ -316,11 +321,6 @@ img {
     border-radius: 3rem;
 }
 
-.hi1 {
-    margin-top: 1.5rem;
-    font-size: 2rem;
-
-}
 
 ._text::before {
     content: "Projects";
@@ -465,6 +465,17 @@ i:hover {
         width: 25rem;
         border-radius: 50%;
 
+    }
+
+    .hi {
+        font-size: 2rem;
+        
+    }
+    
+    .hi1 {
+        margin-top: 1.5rem;
+        font-size: 2rem;
+    
     }
 
     .mytech {
@@ -705,6 +716,20 @@ i:hover {
 
     }
 
+
+    .batt {
+        background-color: orange;
+        color: white;
+        border-radius: 2rem;
+        text-align: center;
+        margin: 4rem;
+        cursor: pointer;
+        font-size: 2rem;
+        padding: 2rem;
+        border: .2rem solid white;
+    
+    }
+
     .resbox {
         border: .2rem solid white;
         width: 90%;
@@ -792,6 +817,30 @@ i:hover {
         margin-top: 15rem;
     }
 
+    .hi {
+        font-size: 1.6rem;
+        
+    }
+    
+    .hi1 {
+        margin-top: 1.5rem;
+        font-size: 1.6rem;
+    
+    }
+
+    .batt {
+        background-color: orange;
+        color: white;
+        border-radius: 2rem;
+        text-align: center;
+        margin: 4rem;
+        cursor: pointer;
+        font-size: 1.6rem;
+        padding: 1.6rem;
+        border: .2rem solid white;
+    
+    }
+
     .mytech {
         display: flex;
         justify-content: space-evenly;
@@ -801,9 +850,9 @@ i:hover {
     }
 
     .tec1 {
-        padding: 1rem;
+        padding: 1.3rem;
         width: 9rem;
-        font-size: 1rem;
+        font-size: 1.3rem;
         margin: 1rem;
         border: .2rem solid white;
         border-radius: 3rem;
@@ -1035,18 +1084,18 @@ i:hover {
     }
 
     .lang {
-        display: none;
+        
         border: .2rem solid white;
         border-radius: 1rem;
-        padding: .5rem;
+        padding: .3rem;
+        font-size:1rem;
         color: white;
     }
     .resbox {
         border: .2rem solid white;
-        width: 90%;
+        width: 100%;
         height: 6rem;
-        background-image: url('');
-        padding:9rem; 
+        padding:4rem; 
     }
     
     .resbox a
@@ -1056,7 +1105,7 @@ i:hover {
         color:white;
         
     
-        font-size:5rem;
+        font-size:3rem;
     }
     
     .resbox a:hover
