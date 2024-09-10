@@ -393,13 +393,6 @@ img {
 } */
 
 
-hr
-{
-    background-color:orange;
-    padding-bottom:2rem;
-
-    
-}
 
 ._na {
     color: white;
@@ -616,14 +609,7 @@ i:hover {
         border:.1rem solid white;
     } */
 
-    hr
-    {
-        background-color:orange;
-        padding-bottom:2rem;
-
-        
-    }
-
+    
     ._text {
         margin: 4rem;
         font-size: 1.5rem;
@@ -856,7 +842,7 @@ i:hover {
     }
 
     html {
-        font-size: 50%;
+        font-size: 40%;
     }
 
     #main a {
@@ -918,10 +904,10 @@ i:hover {
     }
 
     .tec1 {
-        padding: 1.3rem;
-        width: 9rem;
+        padding: 1.2rem;
+        width: 8rem;
         font-size: 1.3rem;
-        margin: 1rem;
+        margin: .8rem;
         border: .2rem solid white;
         border-radius: 3rem;
     }
@@ -1093,7 +1079,7 @@ i:hover {
 
     }
 
-    .hire {
+    .hire:hover {
 
         border: .2rem solid white;
         background-color: orange;
@@ -1187,7 +1173,7 @@ i:hover {
         color:white;
         
     
-        font-size:3rem;
+        font-size:2rem;
     }
     
     .resbox a:hover
@@ -1197,16 +1183,8 @@ i:hover {
         color:orange;
         
     
-        font-size:3rem;
+        font-size:2rem;
     }
-    
-    hr
-{
-    background-color:orange;
-    padding-bottom:2rem;
-
-    
-}
  
 
     i {
