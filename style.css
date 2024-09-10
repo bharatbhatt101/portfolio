@@ -1094,6 +1094,7 @@ i:hover {
     .resbox {
         border: .2rem solid white;
         width: 100%;
+        margin:4rem;
         height: 6rem;
         padding:4rem; 
     }
@@ -1101,7 +1102,7 @@ i:hover {
     .resbox a
     {
         text-decoration:none;
-        margin:5rem; 
+        margin:3rem; 
         color:white;
         
     
@@ -1111,7 +1112,7 @@ i:hover {
     .resbox a:hover
     {
         text-decoration:none;
-        margin:5rem; 
+        margin:3rem; 
         color:orange;
         
     
