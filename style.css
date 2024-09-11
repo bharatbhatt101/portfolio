@@ -110,6 +110,7 @@ i {
 
 
 
+
 .pic {
     width:40rem;
     border-radius: 50%;
@@ -182,7 +183,7 @@ img {
 }
 
 ._text1 {
-
+    
     margin: 30rem;
     display: flex;
     justify-content: center;
@@ -194,8 +195,8 @@ img {
 }
 
 ._text2 {
-
-    margin: 30rem;
+    
+    margin: 20rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -238,32 +239,40 @@ img {
     
     
 }
+.pdf-viewer
+{
+   width:fit-content;
+   height:100%;
+   border:none;
+   margin-bottom:5rem;
+   font-size:4rem;
+   
+   
+}
+
 
 .resbox {
     border: .2rem solid white;
-    width: 90%;
-    height: 6rem;
-    padding:9rem; 
-}
-
-.resbox a
-{
+    width:6rem;
+    height: 3rem;
+    padding:1rem; 
     text-decoration:none;
-    margin:5rem; 
     color:white;
-    
-    
-    font-size:4rem;
+    border-radius:3rem;
+    background-color:grey;
+    font-size:2rem;
 }
 
-.resbox a:hover
+
+.resbox:hover
 {
     text-decoration:none;
-    margin:5rem; 
-    color:orange;
+    color:white;
+    border-radius:3rem;
+    background-color:blue;
     
     
-    font-size:4rem;
+    font-size:2rem;
 }
 
 .in3 {
@@ -772,27 +781,23 @@ i:hover {
         margin-left:8rem ;
         margin-right:8rem ;
         height: 5rem;
-        padding:6rem; 
+        padding:1rem; 
+        text-decoration:none;
+        font-size:2rem;
+        color:white;
     }
     
-    .resbox a
+    
+    
+    .resbox:hover
     {
         text-decoration:none;
         margin:5rem; 
         color:white;
+        background-color:blue;
         
     
-        font-size:4rem;
-    }
-    
-    .resbox a:hover
-    {
-        text-decoration:none;
-        margin:5rem; 
-        color:orange;
-        
-    
-        font-size:4rem;
+        font-size:2rem;
     }
     
 
@@ -1154,29 +1159,35 @@ i:hover {
         font-size:1rem;
         color: white;
     }
+
+    .pdf-viewer
+{
+   width:max-content;
+   height:100%;
+   border:none;
+   margin-bottom:5rem;
+   font-size:4rem;
+   
+   
+}
     .resbox {
         border: .2rem solid white;
     
         margin:6rem;
         height: 6rem;
-        padding:4rem; 
-    }
-    
-    .resbox a
-    {
+        padding:1rem; 
         text-decoration:none;
-        margin:2.5rem; 
-        color:white;
-        
-    
         font-size:2rem;
     }
+    
+   
     
     .resbox a:hover
     {
         text-decoration:none;
         margin:2.5rem; 
-        color:orange;
+        color:white;
+        background-color:blue;
         
     
         font-size:2rem;
