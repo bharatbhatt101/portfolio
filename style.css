@@ -704,8 +704,8 @@ i:hover {
         overflow-x:hidden;
         scrollbar-width:none;
         scroll-behavior: smooth;
-        border-left:none;
-        border-right:none;
+        border-left:transparent;
+        border-right:transparent;
         display: none;
         margin-top: 2rem;
         background-color: #181212;
@@ -717,8 +717,8 @@ i:hover {
         height: 42rem;
         flex-direction: column;
         justify-content: center;
-        border-left:none;
-        border-right:none;
+        border-left:transparent;
+        border-right:transparent;
         align-items: center;
         text-align: center;
         overflow-y: scroll;
@@ -759,13 +759,17 @@ i:hover {
         padding: 3rem;
         color: white;
         font-size: 2rem;
-        border-left:none;
-        border-right:none;
+        border-left:transparent;
+        border-right:transparent;
         text-decoration: none;
         margin-right: 4rem;
         display: inline-block;
         border: .2rem solid white;
         width: 100%;
+        overflow-y: scroll;
+        overflow-x:hidden;
+        scrollbar-width:none;
+        scroll-behavior: smooth;
 
     }
 
