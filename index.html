@@ -88,7 +88,7 @@
             ><b class="lang">JAVASCRIPT</b>
           </div>
         </div>
-        <div><button class="batt">More Projects</button></div>
+        <div><a href="more.html"><button class="batt">More Projects</button></a></div>
       </div>
     </div>
     <div class="about" id="abme">
@@ -136,7 +136,7 @@
       <hr />
 
       <div class="_text3">
-        <form  method="get">
+        <form  method="get" onsubmit="messg()">
           <label for="na">Name:</label><br />
           <input
             type="text"
@@ -152,9 +152,9 @@
             class="in2"
             placeholder="Your message"
             required
-          /><br />
+          /><br/>
           
-            <button class="in3" onclick="messg()">Submit</button>
+            <input type="submit" class="in3"  value="Contact">
         </form>
       </div>
     </div>
