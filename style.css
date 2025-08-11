@@ -26,8 +26,8 @@ body {
     top: 0;
     left: 0;
     margin-bottom: 1rem;
-    
-    
+
+
 }
 
 .port {
@@ -44,18 +44,18 @@ body {
 
 
 #main .hire {
-    
+
     border: .2rem solid orange;
     background-color: orange;
     font-size: 1.7rem;
     padding: 0.8rem;
     color: black;
     border-radius: 2rem;
-    
+
 }
 
 #main .hire:hover {
-    
+
     border: .2rem solid white;
     background-color: orange;
     font-size: 1.7rem;
@@ -63,133 +63,146 @@ body {
     cursor: pointer;
     color: black;
     border-radius: 2rem;
-    
+
 }
+
 #main {
     text-align: right;
     margin-top: -6.5rem;
 
 
 }
+
 #main label {
-    
+
     color: white;
     font-size: 2rem;
     cursor: pointer;
     padding: 0rem 2rem;
     margin-right: 4rem;
-    
+
 }
 
 
 
- input[type="radio"]
-  {
-     display:none; 
-  }  
-
-    input[type="radio"]:checked+label {
-      
-      border-bottom:.2rem solid orange;
-
-    }
-
-#_uni a,#_uni label {
+input[type="radio"] {
     display: none;
-    
+}
+
+input[type="radio"]:checked+label {
+
+    border-bottom: .2rem solid orange;
+
+}
+
+#_uni a,
+#_uni label {
+    display: none;
+
 }
 
 
 .i {
     color: transparent;
-    
-    
+
+
 }
 
 
 i {
 
     display: none;
-    
+
 }
 
 
 
 
 .pic {
-    width:40rem;
+    width: 40rem;
     border-radius: 50%;
     margin-top: 10rem;
     margin-right: 8rem;
-    border:.1rem solid white;
+    border: .1rem solid white;
     float: right;
-    
-    
-    
+
+
+
 }
 
-img {
-    width:40rem;
+#img {
+    width: 40rem;
     border-radius: 50%;
-    
+
 }
 
 ._text {
-    
-    margin: 6rem;
+
+
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    flex-direction: column;
     color: white;
+    overflow-x: scroll;
+    scrollbar-width: thin;
+    scrollbar-gutter: stable;
+    
 }
+
 
 
 .box {
-    width: 100%;
+    width: auto;
+    min-width: 32rem;
+    min-height: 35rem;
+    max-height: fit-content;
+    max-height: fit-content;
+    height: auto;
+    border-radius: 2rem;
+    cursor: pointer;
+    max-width: fit-content;
     display: flex;
-    justify-content: left;
+    margin: 1.2rem;
+    justify-content: space-between;
     align-items: center;
-    flex-direction: row;
-    padding: 1rem;
-    border: .1rem solid white;
-    border-right: none;
-    border-left: none;
-    height: 5rem;
+    flex-direction: column;
+    padding: 1.5rem;
+    border: .1rem solid #181818;
+    background-color: #0015227d;
+
+
 }
 
-.box:hover {
-    width: 100%;
-    display: flex;
-    margin-top: 0rem;
-    justify-content: left;
-    align-items: center;
-    flex-direction: row;
-    background-color: rgb(244, 184, 72);
-    cursor: pointer;
-    border: .1rem solid white;
-    border-right: none;
-    border-left: none;
-    height: 5rem;
-}
+
+
+
+
 
 .ap {
     color: white;
     text-decoration: none;
-    font-size: 3rem;
+    font-size: 2.5rem;
+}
+
+.ap1 {
+    min-width: 25rem;
+    max-width: 100%;
+    background-color: #181818;
+    border-radius: 2rem;
+    width: fit-content;
 }
 
 .lang {
     border: .2rem solid white;
     border-radius: 2rem;
-    padding: .7rem;
-    margin: .7rem;
+    padding: .5rem;
+    margin: .2rem;
     color: white;
 }
 
 ._text1 {
-    
-    margin: 30rem;
+
+    /* margin: 30rem; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -200,8 +213,8 @@ img {
 }
 
 ._text2 {
-    
-    margin: 20rem;
+
+    /* margin: 20rem; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -212,9 +225,9 @@ img {
 }
 
 ._text3 {
-    
-    
-    margin: 6rem;
+
+
+    /* margin: 6rem; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -241,50 +254,49 @@ img {
     height: 10rem;
     margin: 2rem;
     border-radius: 2rem;
-    
-    
+
+
 }
-.pdf-viewer
-{
-   width:fit-content;
-   height:100%;
-   border:none;
-   margin-bottom:5rem;
-   font-size:4rem;
-   
-   
+
+.pdf-viewer {
+    width: fit-content;
+    height: 100%;
+    border: none;
+    margin-bottom: 5rem;
+    font-size: 4rem;
+
+
 }
 
 
 .resbox {
     border: .2rem solid white;
-    width:6rem;
+    width: 6rem;
     height: 3rem;
-    padding:1rem; 
-    text-decoration:none;
-    color:white;
-    border-radius:3rem;
-    background-color:grey;
-    font-size:2rem;
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+    border-radius: 3rem;
+    background-color: grey;
+    font-size: 2rem;
 }
 
 
-.resbox:hover
-{
-    text-decoration:none;
-    color:white;
-    border-radius:3rem;
-    background-color:blue;
-    
-    
-    font-size:2rem;
+.resbox:hover {
+    text-decoration: none;
+    color: white;
+    border-radius: 3rem;
+    background-color: blue;
+
+
+    font-size: 2rem;
 }
 
 .in3 {
     width: 30rem;
     height: 4rem;
     margin: 2rem;
-    
+
     cursor: pointer;
     border-radius: 2rem;
     border-radius: 1rem;
@@ -294,44 +306,44 @@ img {
 
 .name {
     padding: 10rem;
-    
-    
-    
+
+
+
 }
 
-.n
-{
+.n {
 
-    height:100%;
+    height: 100%;
     background: #181818;
-    margin:10rem 5rem;
-    border-radius:12rem;
+    margin: 10rem 5rem;
+    border-radius: 12rem;
 }
 
 .hi {
     font-size: 2rem;
-    color:grey;
+    color: grey;
 }
 
 .hi1 {
-    color:grey;
+    color: grey;
     margin-top: 1.5rem;
-    font-size:2rem;
-    
+    font-size: 2rem;
+
 }
+
 .user {
     color: orange;
 }
 
 .tech {
     margin-top: 3.5rem;
-    font-size:4rem;
+    font-size: 4rem;
     margin-bottom: 3.5rem;
 }
 
 .mytech {
     display: flex;
-    justify-content:left;
+    justify-content: left;
     flex-wrap: wrap;
     text-align: center;
     align-items: center;
@@ -342,14 +354,14 @@ img {
     cursor: pointer;
     width: 8rem;
     font-size: 1rem;
-    margin:1rem;
+    margin: 1rem;
     border: .2rem solid white;
     border-radius: 3rem;
 }
 
 
 ._text::before {
-    content: "Projects";
+
     margin: 5rem;
     font-size: 3rem;
     text-align: center;
@@ -375,7 +387,7 @@ img {
 }
 
 .batt {
-    background-color:grey;
+    background-color: grey;
     color: white;
     border-radius: 2rem;
     text-align: center;
@@ -387,11 +399,10 @@ img {
 
 }
 
-.batt:hover
-    {
-        background-color:orange;
-    
-    }
+.batt:hover {
+    background-color: orange;
+
+}
 
 ._text3::before {
     content: "Contact Me";
@@ -403,21 +414,21 @@ img {
 }
 
 .about {
-    margin:10rem 5rem;
-    height:auto;
-    width:auto;
+    margin: 10rem 5rem;
+    height: auto;
+    width: auto;
     background: #181818;
-    border-radius:12rem;
-    padding:2rem;
+    border-radius: 12rem;
+    padding: 2rem;
 }
 
-/* .ame {
-    
-    font-size: 3rem;
-    color:transparent;
-    display:none; 
+.ame {
 
-} */
+    font-size: 3rem;
+    color: white;
+
+
+}
 
 
 
@@ -478,14 +489,15 @@ i:hover {
     * {
         margin: 0;
         padding: 0;
-        appearance:none;
+        appearance: none;
     }
 
     html {
         font-size: 52%;
     }
 
-    #main a,#main label {
+    #main a,
+    #main label {
 
         display: none;
         opacity: 0;
@@ -498,7 +510,7 @@ i:hover {
         margin-top: 15rem;
     }
 
-    img {
+    #img {
         width: 25rem;
         border-radius: 50%;
 
@@ -507,24 +519,24 @@ i:hover {
     .hi {
         font-size: 2rem;
         margin-left: 2.5rem;
-        margin-right:2.5rem ;
+        margin-right: 2.5rem;
     }
-    
+
     .hi1 {
         margin-left: 2.5rem;
-        margin-right:2.5rem ;
+        margin-right: 2.5rem;
         margin-top: 1.5rem;
         font-size: 2rem;
-    
+
     }
 
     .mytech {
         display: flex;
-        justify-content:center;
+        justify-content: center;
         flex-wrap: wrap;
-        margin:5rem;
+        margin: 5rem;
         text-align: center;
-        align-items:center;
+        align-items: center;
     }
 
     .tech {
@@ -545,32 +557,20 @@ i:hover {
     .box {
         width: 100%;
         display: flex;
-        justify-content: left;
+        justify-content: space-between;
         align-items: center;
         /* flex-direction: column; */
-        margin-top: 0rem;
-        padding: 2.5rem;
-        border: .1rem solid white;
-        border-right: none;
-        border-left: none;
-        height: 6rem;
+
+        padding: 2rem;
+        border: .1rem solid #19435d;
+
+        
     }
 
     .box:hover {
         width: 100%;
-        display: flex;
-        justify-content: left;
-        padding: 2.5rem;
-        align-items: center;
-        /* flex-direction: column; */
-        margin-top: 0rem;
-
-        background-color: rgb(244, 184, 72);
         cursor: pointer;
-        border: .1rem solid white;
-        border-right: none;
-        border-left: none;
-        height: 6rem;
+        
     }
 
 
@@ -636,7 +636,7 @@ i:hover {
         border:.1rem solid white;
     } */
 
-    
+
     ._text {
         margin: 4rem;
         font-size: 1.5rem;
@@ -677,12 +677,12 @@ i:hover {
 
     }
 
-    
+
 
     .lang {
         border: .2rem solid white;
         border-radius: 1rem;
-        padding: .5rem;
+        padding: .3rem;
         color: white;
     }
 
@@ -715,36 +715,37 @@ i:hover {
         padding: 3rem;
         /* margin-right: 4rem; */
     }
+
     /* 
  input[type="radio"]
   {
      display:none; 
   }  */
 
-  #_uni  input[type="radio"]:checked+label {
-      
-      border-bottom:.2rem solid orange;
+    #_uni input[type="radio"]:checked+label {
+
+        border-bottom: .2rem solid orange;
 
     }
 
     #uni {
-        width:auto;
-        height:auto;
+        width: auto;
+        height: auto;
         display: none;
         margin-top: 2rem;
-        margin-left:-1.5rem;
+        margin-left: -1.5rem;
         background-color: #181212;
     }
 
     #_uni {
         display: none;
-        width:auto;
-        height:auto;
+        width: auto;
+        height: auto;
         flex-direction: column;
         align-items: center;
         text-align: center;
-        
-        
+
+
 
     }
 
@@ -789,7 +790,7 @@ i:hover {
 
 
     .batt {
-        background-color:grey;
+        background-color: grey;
         color: white;
         border-radius: 2rem;
         text-align: center;
@@ -798,40 +799,38 @@ i:hover {
         font-size: 1.5rem;
         padding: 1.5rem;
         border: .2rem solid white;
-    
+
     }
 
-    .batt:hover
-    {
-        background-color:orange;
-    
+    .batt:hover {
+        background-color: orange;
+
     }
 
     .resbox {
         border: .2rem solid white;
-    
-        margin-left:8rem ;
-        margin-right:8rem ;
+
+        margin-left: 8rem;
+        margin-right: 8rem;
         height: 5rem;
-        padding:1rem; 
-        text-decoration:none;
-        font-size:2rem;
-        color:white;
+        padding: 1rem;
+        text-decoration: none;
+        font-size: 2rem;
+        color: white;
     }
-    
-    
-    
-    .resbox:hover
-    {
-        text-decoration:none;
-        margin:5rem; 
-        color:white;
-        background-color:blue;
-        
-    
-        font-size:2rem;
+
+
+
+    .resbox:hover {
+        text-decoration: none;
+        margin: 5rem;
+        color: white;
+        background-color: blue;
+
+
+        font-size: 2rem;
     }
-    
+
 
     i {
 
@@ -878,7 +877,8 @@ i:hover {
         font-size: 45%;
     }
 
-    #main a,#main label {
+    #main a,
+    #main label {
 
         display: none;
         opacity: 0;
@@ -893,17 +893,17 @@ i:hover {
 
     .hi {
         font-size: 1.6rem;
-        
+
     }
-    
+
     .hi1 {
         margin-top: 1.5rem;
         font-size: 1.6rem;
-    
+
     }
 
     .batt {
-        background-color:grey;
+        background-color: grey;
         color: white;
         border-radius: 2rem;
         text-align: center;
@@ -912,11 +912,11 @@ i:hover {
         font-size: 1.6rem;
         padding: 1.6rem;
         border: .2rem solid white;
-    
+
     }
 
     .batt:hover {
-        background-color:orange;
+        background-color: orange;
         color: white;
         border-radius: 2rem;
         text-align: center;
@@ -925,12 +925,12 @@ i:hover {
         font-size: 1.6rem;
         padding: 1.6rem;
         border: .2rem solid white;
-    
+
     }
 
     .mytech {
         display: flex;
-        justify-content:left;
+        justify-content: left;
         flex-wrap: wrap;
         text-align: center;
         align-items: center;
@@ -945,13 +945,13 @@ i:hover {
         border-radius: 3rem;
     }
 
-    img {
+    #img {
         width: 25rem;
         border-radius: 50%;
 
     }
 
-   
+
 
 
     .name {
@@ -1048,7 +1048,7 @@ i:hover {
     }
 
 
- 
+
 
     .about {
         margin-top: 27rem;
@@ -1082,17 +1082,17 @@ i:hover {
 
     #uni {
         width: 100%;
-        height:auto;
+        height: auto;
         display: none;
         margin-top: 2rem;
-        margin-left:-1.5rem;
+        margin-left: -1.5rem;
         background-color: #181212;
     }
 
     #_uni {
         display: none;
         width: 100%;
-        height:auto;
+        height: auto;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -1132,44 +1132,32 @@ i:hover {
         color: white;
         font-size: 2rem;
         display: inline-block;
-        border:none;
+        border: none;
         border-bottom: .2rem solid white;
         width: 100%;
 
     }
 
-    
+
     .box {
-        width: 100%;
+        
         display: flex;
-        justify-content: left;
-        align-items: center;
-        flex-direction: column;
-        margin-top: 0rem;
+        justify-content:space-between;
+        align-items: center;      
         padding: 2.5rem;
 
         border: .1rem solid white;
-        border-right: none;
-        border-left: none;
-        height: 6rem;
-    }
-
-    .box:hover {
-        width: 100%;
-        display: flex;
-        justify-content: left;
-        padding: 2rem;
-        align-items: center;
-        flex-direction: column;
-        margin-top: 0rem;
-
-        background-color: rgb(244, 184, 72);
         cursor: pointer;
-        border: .1rem solid white;
-        border-right: none;
-        border-left: none;
-        height: 6rem;
+     
+    
     }
+
+    /* .box:hover {
+        
+
+         background-color: rgb(244, 184, 72);
+        height: 6rem;
+    } */
 
     .ap {
         color: white;
@@ -1180,51 +1168,50 @@ i:hover {
 
     .nig {
 
-        margin-top: 2rem;
+        margin-top: 1.5rem;
     }
 
     .lang {
-        
+
         border: .2rem solid white;
         border-radius: 1rem;
         padding: .3rem;
-        font-size:1rem;
+        font-size: 1rem;
         color: white;
     }
 
-    .pdf-viewer
-{
-   width:max-content;
-   height:100%;
-   border:none;
-   margin-bottom:5rem;
-   font-size:4rem;
-   
-   
-}
+    .pdf-viewer {
+        width: max-content;
+        height: 100%;
+        border: none;
+        margin-bottom: 5rem;
+        font-size: 4rem;
+
+
+    }
+
     .resbox {
         border: .2rem solid white;
-    
-        margin:6rem;
+
+        margin: 6rem;
         height: 6rem;
-        padding:1rem; 
-        text-decoration:none;
-        font-size:2rem;
+        padding: 1rem;
+        text-decoration: none;
+        font-size: 2rem;
     }
-    
-   
-    
-    .resbox a:hover
-    {
-        text-decoration:none;
-        margin:2.5rem; 
-        color:white;
-        background-color:blue;
-        
-    
-        font-size:2rem;
+
+
+
+    .resbox a:hover {
+        text-decoration: none;
+        margin: 2.5rem;
+        color: white;
+        background-color: blue;
+
+
+        font-size: 2rem;
     }
- 
+
 
     i {
 
@@ -1261,9 +1248,8 @@ i:hover {
 
 @media screen and (max-width:1037px) {
 
-    html
-    {
-        font-size:54%;
+    html {
+        font-size: 54%;
     }
-    
+
 }
