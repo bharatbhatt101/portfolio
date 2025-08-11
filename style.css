@@ -471,6 +471,7 @@ i:hover {
     width: 100%;
     height: 6rem;
     display: flex;
+    background-color: #19435d;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -479,7 +480,7 @@ i:hover {
 .footer .i1 {
     color: white;
     font-size: 2.6rem;
-    margin-top: -3rem;
+    margin-top:2rem;
     margin-right: 3rem;
     margin-left: 3rem;
     margin-bottom: 3rem;
@@ -853,6 +854,7 @@ i:hover {
         height: 6rem;
         margin-bottom: 2.5rem;
         display: flex;
+        background-color:#19435d ;
         justify-content: center;
         text-align: center;
         align-items: center;
@@ -1235,6 +1237,7 @@ i:hover {
         height: 6rem;
         margin-bottom: 2.5rem;
         display: flex;
+        background-color: #19435d;
         justify-content: center;
         text-align: center;
         align-items: center;
