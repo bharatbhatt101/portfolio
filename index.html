@@ -1,255 +1,257 @@
 <html>
-  <head>
-    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
-    <title>Bharat Bhatt-Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="header">
-      <p class="port"></p>
 
-      <div class="i">
-        <a class="hire" onclick="hm()">Hire me</a>
-        <i class="fa-solid fa-bars" id="aa" onclick="Open()"></i>
-        <i
-          class="fa-solid fa-xmark"
-          id="cls"
-          onclick="Close()"
-          style="display: none"
-        ></i>
-      </div>
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
+  <title>Bharat Bhatt-Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
+  
+</head>
 
-      <div id="uni">
-        <nav id="_uni">
-          <a href="#" onclick="Close()">Intro</a>
-          <a href="#pro" onclick="Close()">Projects</a>
-          <a href="#abme" onclick="Close()">About</a>
-          <a href="#res" onclick="Close()">Resume</a>
-          <a href="#coon" onclick="Close()" style="border-bottom: none"
-            >Contact</a
-          >
-        </nav>
-      </div>
-      <nav id="main">
-        <!-- <p class="port">MY PORTFOLIO</p> -->
-        <a class="hire" onclick="hm()">Hire me</a>
-        <a href="#">Intro</a>
-        <a href="#pro">Projects</a>
-        <a href="#abme">About</a>
-        <a href="#res">Resume</a>
-        <a href="#coon">Contact</a>
+<body>
+  <div class="header">
+    <p class="port"></p>
+
+    <div class="i">
+      <a class="hire" onclick="hm()">Hire me</a>
+      <i class="fa-solid fa-bars" id="aa" onclick="Open()"></i>
+      <i class="fa-solid fa-xmark" id="cls" onclick="Close()" style="display: none"></i>
+    </div>
+
+    <div id="uni">
+      <nav id="_uni">
+        <input type="radio" id="in"  name="nav" checked>
+        <label for="in"  onclick="Close(), int()">Intro</label>
+        <input type="radio" id="pj" name="nav">
+        <label for="pj" onclick="Close(), pro()">Projects</label>
+        <input type="radio" id="abm" name="nav">
+        <label for="abm"  onclick="Close() ,abt()">About</label>
+        <input type="radio" id="rse" name="nav">
+        <label for="rse"  onclick="Close(),res()">Resume</label>
+        <input type="radio" id="contt" name="nav">
+        <label for="contt" onclick="Close(),con()">Contact</label>
       </nav>
     </div>
+    <nav id="main">
+      <!-- <p class="port">MY PORTFOLIO</p> -->
+      <a class="hire" onclick="hm()">Hire me</a>
+      <input type="radio" id="int" name="nav" checked>
+      <label for="int" onclick="int()">Intro</label>
+      <input type="radio" id="pjt" name="nav">
+      <label for="pjt" onclick="pro()">Projects</label>
+      <input type="radio" id="ab" name="nav">
+      <label for="ab" onclick="abt()">About</label>
+      <input type="radio" id="re" name="nav">
+      <label for="re" onclick="res()">Resume</label>
+      <input type="radio" id="cont" name="nav">
+      <label for="cont" onclick="con()">Contact</label>
+    </nav>
+  </div>
 
-    <div class="n">
-      <div class="pic">
-        <img src="img/bharat.png" alt="" />
-      </div>
-
-      <div class="name">
-        <h1 class="_na">Hello,My Name is</h1>
-        <p class="_user">Bharat Bhatt</p>
-      </div>
+  <div class="n">
+    <div class="pic">
+      <img src="img/bharat.png" alt="" />
     </div>
 
-    <div class="about" id="pro">
-      <h2 align="center" class="ame"></h2>
-      <div class="_text">
-        <div class="box" onclick="pro1()">
-          <div><a  class="ap">E-Medical</a></div>
-          <div class="nig">
-            <b class="lang">HTML</b><b class="lang">CSS</b
-            ><b class="lang">JAVASCRIPT</b><b class="lang">PHP</b
-            ><b class="lang">MYSQL</b>
-            <!-- <a href=""><button>Open</button></a> -->
-          </div>
-        </div>
-
-        <div class="box"  onclick="pro2()">
-          <div><a class="ap">Android App Clone</a></div>
-          <div class="nig"><b class="lang">HTML</b><b class="lang">CSS</b></div>
-        </div>
-        <div class="box" onclick="pro3()">
-          <div><a  class="ap">Spotify</a></div>
-          <div class="nig"><b class="lang">HTML</b><b class="lang">CSS</b></div>
-        </div>
-        <div class="box" style="border-bottom: 0.1rem solid white" onclick="pro4()">
-          <div><a  class="ap">Phone App</a></div>
-          <div class="nig">
-            <b class="lang">HTML</b><b class="lang">CSS</b
-            ><b class="lang">JAVASCRIPT</b>
-          </div>
-        </div>
-        <div><a href="more.html"><button class="batt">More Projects</button></a></div>
-      </div>
+    <div class="name">
+      <h1 class="_na">Hello,My Name is</h1>
+      <p class="_user">Bharat Bhatt</p>
     </div>
-    <div class="about" id="abme">
-      <h2 align="center" class="ame"></h2>
-      <div class="_text1">
-        <p class="hi" >
-          Hello there 👋, I am <user class="user">Bharat Bhatt</user>, recent BCA graduate. I am eager to learn new skills in web development.
-           I have a strong foundation in essential web
-          technologies such as HTML, CSS, and JavaScript. I have built a
-          some projects. I
-          have created various projects, including "E-medical", "Android theams
-          clone", and some other projects at my own.
-        </p>
-        <p class="hi1">
-          These  have instilled in me a sense of discipline, which I bring to every project given to me. I am excited
-          to bring my theoritical knowledge to a new role.
-        </p>
-        <h1 class="tech">Technologies</h1>
-        <div class="mytech">
-          <p class="tec1" id="htm" onclick="html()">HTML</p>
-          <p class="tec1" id="css" onclick="cs()">CSS</p>
-          <p class="tec1" id="jav" onclick="js()">JAVASCRIPT</p>
-          <p class="tec1" id="php" onclick="ph()">PHP</p>
-          <p class="tec1" id="mys" onclick="mysq()">MYSQL</p>
-          <p class="tec1" id="cl" onclick="ca()">C</p>
-          <p class="tec1" id="cll" onclick="caa()">C++</p>
-          <p class="tec1" id="ja" onclick="java()">JAVA</p>
-          <p class="tec1" id="gi" onclick="git()">Git</p>
+  </div>
+
+  <div class="about" id="pro">
+    <h2 align="center" class="ame"></h2>
+    <div class="_text">
+      <div class="box" onclick="pro1()">
+        <div><a class="ap">E-Medical</a></div>
+        <div class="nig">
+          <b class="lang">HTML</b><b class="lang">CSS</b><b class="lang">JAVASCRIPT</b><b class="lang">PHP</b><b
+            class="lang">MYSQL</b>
+          <!-- <a href=""><button>Open</button></a> -->
         </div>
       </div>
-    </div>
 
-    <div class="about" id="res">
-      <h2 align="center" class="ame"></h2>
-      <div class="_text2">
-        <iframe class="pdf-viewer"  src="img/resumeb.pdf" type="application/pdf"></iframe><br>
-        <div ><a href="img/resumeb.pdf" class="resbox" download="resumeb.pdf">Download</a>
-        
+      <div class="box" onclick="pro2()">
+        <div><a class="ap">Android App Clone</a></div>
+        <div class="nig"><b class="lang">HTML</b><b class="lang">CSS</b></div>
+      </div>
+      <div class="box" onclick="pro3()">
+        <div><a class="ap">Spotify</a></div>
+        <div class="nig"><b class="lang">HTML</b><b class="lang">CSS</b></div>
+      </div>
+      <div class="box" style="border-bottom: 0.1rem solid white" onclick="pro4()">
+        <div><a class="ap">Phone App</a></div>
+        <div class="nig">
+          <b class="lang">HTML</b><b class="lang">CSS</b><b class="lang">JAVASCRIPT</b>
         </div>
       </div>
+      <div><a href="more.html"><button class="batt">More Projects</button></a></div>
     </div>
-    <!-- <div class="m"> -->
-
-    <div class="about" id="coon">
-      <hr />
-
-      <div class="_text3">
-        <form  method="get" onsubmit="messg()">
-          <label for="na">Name:</label><br />
-          <input
-            type="text"
-            namee="na"
-            class="in1"
-            placeholder="Name"
-            required
-          /><br />
-          <label for="mess">Message:</label><br />
-          <input
-            type="text"
-            name="mess"
-            class="in2"
-            placeholder="Your message"
-            required
-          /><br/>
-          
-            <input type="submit" class="in3"  value="Contact">
-        </form>
+  </div>
+  <div class="about" id="abme">
+    <h2 align="center" class="ame"></h2>
+    <div class="_text1">
+      <p class="hi">
+        Hello there 👋, I am <user class="user">Bharat Bhatt</user>, recent BCA graduate. I am eager to learn new skills
+        in web development.
+        I have a strong foundation in essential web
+        technologies such as HTML, CSS, and JavaScript. I have built a
+        some projects. I
+        have created various projects, including "E-medical", "Android theams
+        clone", and some other projects at my own.
+      </p>
+      <p class="hi1">
+        These have instilled in me a sense of discipline, which I bring to every project given to me. I am excited
+        to bring my theoritical knowledge to a new role.
+      </p>
+      <h1 class="tech">Technologies</h1>
+      <div class="mytech">
+        <p class="tec1" id="htm" onclick="html()">HTML</p>
+        <p class="tec1" id="css" onclick="cs()">CSS</p>
+        <p class="tec1" id="jav" onclick="js()">JAVASCRIPT</p>
+        <p class="tec1" id="php" onclick="ph()">PHP</p>
+        <p class="tec1" id="mys" onclick="mysq()">MYSQL</p>
+        <p class="tec1" id="cl" onclick="ca()">C</p>
+        <p class="tec1" id="cll" onclick="caa()">C++</p>
+        <p class="tec1" id="ja" onclick="java()">JAVA</p>
+        <p class="tec1" id="gi" onclick="git()">Git</p>
       </div>
     </div>
+  </div>
 
-    <div class="footer">
-      <div class="facebook"><i class="fa-brands fa-facebook i1"></i></div>
-      <div class="github"><i class="fa-brands fa-github i1"></i></div>
-      <div class="gmail"><i class="fa-solid fa-envelope i1"></i></div>
+  <div class="about" id="res">
+    <h2 align="center" class="ame"></h2>
+    <div class="_text2">
+      <iframe class="pdf-viewer" src="img/resumeb.pdf" type="application/pdf"></iframe><br>
+      <div><a href="img/resumeb.pdf" class="resbox" download="resumeb.pdf">Download</a>
+
+      </div>
     </div>
-    <!-- </div> -->
-  </body>
+  </div>
+  <!-- <div class="m"> -->
 
-  <script>
-    function Open() {
-      uni.style.display ="inline-block";
-      _uni.style.display = "inline-block";
-      aa.style.display = "none";
-      cls.style.display = "inline-block";
-      body.style.background="blur";
-    }
+  <div class="about" id="coon">
 
-    function Close() {
-      uni.style.display ="none";
-      _uni.style.display = "none";
-      aa.style.display = "inline-block";
-      cls.style.display = "none";
-    }
 
-    function html() {
-      htm.style.background = "red";
-    }
+    <div class="_text3">
+      <form method="get" onsubmit="messg()">
+        <label for="na">Name:</label><br />
+        <input type="text" namee="na" class="in1" placeholder="Name" required /><br />
+        <label for="mess">Message:</label><br />
+        <input type="text" name="mess" class="in2" placeholder="Your message" required /><br />
 
-    function cs() {
-      css.style.background = "blue";
-    }
+        <input type="submit" class="in3" value="Contact">
+      </form>
+    </div>
+  </div>
 
-    function js() {
-      jav.style.background = "yellow";
-      jav.style.color = "black";
-    }
+  <div class="footer">
+    <div class="facebook"><i class="fa-brands fa-facebook i1"></i></div>
+    <div class="github"><i class="fa-brands fa-github i1"></i></div>
+    <div class="gmail"><i class="fa-solid fa-envelope i1"></i></div>
+  </div>
+  <!-- </div> -->
+</body>
 
-    function ph() {
-      php.style.background = "purple";
-    }
+<script>
+  function Open() {
+    uni.style.display = "inline-block";
+    _uni.style.display = "inline-block";
+    aa.style.display = "none";
+    cls.style.display = "inline-block";
+    body.style.background = "blur";
+  }
 
-    function mysq() {
-      mys.style.background = "orange";
-    }
+  function Close() {
+    uni.style.display = "none";
+    _uni.style.display = "none";
+    aa.style.display = "inline-block";
+    cls.style.display = "none";
+  }
 
-    function ca() {
-      cl.style.background = "blue";
-    }
+  function html() {
+    htm.style.background = "red";
+  }
 
-    function caa() {
-      cll.style.background = "blue";
-    }
+  function cs() {
+    css.style.background = "blue";
+  }
 
-    function java() {
-      ja.style.background = "red";
-    }
+  function js() {
+    jav.style.background = "yellow";
+    jav.style.color = "black";
+  }
 
-    function git() {
-      gi.style.background = "white";
-      gi.style.color = "black";
-    }
+  function ph() {
+    php.style.background = "purple";
+  }
 
-    function hm() {
-      alert(
-        "Thankyou for your interest!\n\nSorry to say that currently I am not available on hiring platforms.\n\nHowever you can reach out to me through the contact section on my portfolio website.\n\nAnd I am also bind my resume in below(resume section). "
-      );
-    }
+  function mysq() {
+    mys.style.background = "orange";
+  }
 
-    function pro1()
-    {
-       window.location.href="";
-    }
+  function ca() {
+    cl.style.background = "blue";
+  }
 
-    function pro2()
-    {
-       window.location.href="https://bharatbhatt101.github.io/App.in/";
-    }
+  function caa() {
+    cll.style.background = "blue";
+  }
 
-    function pro3()
-    {
-       window.location.href="https://bharatbhatt101.github.io/spotify.in/";
-    }
+  function java() {
+    ja.style.background = "red";
+  }
 
-    function pro4()
-    {
-       window.location.href="https://bharatbhatt101.github.io/phone.in/";
-    }
+  function git() {
+    gi.style.background = "white";
+    gi.style.color = "black";
+  }
 
-    function messg()
-    {
-       window.location.href="mailto:bharatbhatt2003bk@gmail.com";
-    }
-  </script>
+  function hm() {
+    alert(
+      "Thankyou for your interest!\n\nSorry to say that currently I am not available on hiring platforms.\n\nHowever you can reach out to me through the contact section on my portfolio website.\n\nAnd I am also bind my resume in below(resume section). "
+    );
+  }
+
+  function pro1() {
+    window.location.href = "";
+  }
+
+  function pro2() {
+    window.location.href = "https://bharatbhatt101.github.io/App.in/";
+  }
+
+  function pro3() {
+    window.location.href = "https://bharatbhatt101.github.io/spotify.in/";
+  }
+
+  function pro4() {
+    window.location.href = "https://bharatbhatt101.github.io/phone.in/";
+  }
+
+  function messg() {
+    window.location.href = "mailto:bharatbhatt2003bk@gmail.com";
+  }
+
+
+  function int() {
+    window.location.href = "#";
+  }
+  function pro() {
+    window.location.href = "#pro";
+  }
+  function abt() {
+    window.location.href = "#abme";
+  }
+  function res() {
+    window.location.href = "#res";
+  }
+  function con() {
+    window.location.href = "#coon";
+  }
+</script>
+
 </html>
