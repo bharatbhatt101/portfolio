@@ -133,7 +133,7 @@ i {
 
 }
 
-._text {
+ ._text {
     
     
     margin: 3rem;
@@ -142,10 +142,35 @@ i {
     align-items: center;
     color: white;
     overflow-x: scroll;
-    scrollbar-width: thin;
-    scrollbar-gutter: stable;
+    /* scrollbar-width: thin; */
+    
     
 }
+
+
+._text::-webkit-scrollbar {
+  height: 10px;   
+  width: 10px;    
+}
+
+
+._text::-webkit-scrollbar-track {
+  background: #1e1e1e; 
+  border-radius: 10px;
+}
+
+
+._text::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #ff7e5f, #feb47b);
+  border-radius: 10px;
+  border: 2px solid #1e1e1e; 
+}
+
+
+._text::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(45deg, #edc10e, #dd2476);
+} 
+
 
 
 
@@ -438,6 +463,8 @@ i {
     border: .2rem solid white;
     
 }
+
+
 
 .batt:hover {
     background-color: orange;
