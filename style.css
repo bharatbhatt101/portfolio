@@ -330,16 +330,31 @@ i {
 }
 
 .name {
-    padding: 10rem;
-
-
-
+   
+    width: max-content;
+    
 }
+
+  .typing {
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+    .typed-cursor {
+      font-size: 8rem;
+      color: orange;
+    }
+    .highlight {
+      color: orange;
+    }
 
 .n {
 
     height:100%;
     background: #181818;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:5rem;
     margin: 10rem 5rem;
     border-radius: 12rem;
 }
@@ -532,8 +547,9 @@ i:hover {
     .pic {
         width: 25rem;
         border-radius: 50%;
-        margin-left: 7rem;
-        margin-top: 15rem;
+        margin-left: 5rem;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
     }
 
     #img {
@@ -601,8 +617,8 @@ i:hover {
 
     .name {
         padding: .5rem;
+        margin-bottom:5rem;
         
-
 
 
     }
@@ -652,13 +668,13 @@ i:hover {
 
     .n {
         display: flex;
-        justify-content: center;
+        justify-content:center;
         width:auto;
         height:auto;
-        padding:2rem;
+        padding:0rem;
         align-items: center;
         text-align: center;
-        flex-direction: column;
+        flex-direction:column-reverse;
     }
 
     ._user {
@@ -934,7 +950,7 @@ i:hover {
         width: 25rem;
         border-radius: 50%;
         margin-left: 7rem;
-        margin-top: 15rem;
+        margin-top: 0rem;
     }
 
     .hi {
@@ -1056,11 +1072,13 @@ i:hover {
 
     .n {
         display: flex;
-        height: fit-content;
-        justify-content: center;
+        width: auto;
+        height:auto;
+        justify-content:space-between;
+        padding:0rem;
         align-items: center;
         text-align: center;
-        flex-direction: column;
+        flex-direction: column-reverse;
 
         
     }
@@ -1068,7 +1086,8 @@ i:hover {
     ._user {
 
         color: orange;
-        font-size: 5rem;
+        font-size: 4rem;
+        margin-left:2rem;
     }
 
 

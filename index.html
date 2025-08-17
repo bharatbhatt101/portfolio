@@ -1,14 +1,16 @@
 <html>
-
-<head>
-  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
-  <title>Bharat Bhatt-Portfolio</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+  
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
+    <title>Bharat Bhatt-Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
   
+    
 </head>
 
 <body>
@@ -51,16 +53,36 @@
     </nav>
   </div>
 
+
   <div class="n" >
+    
+
+    <div class="typing name">
+    <span id="typed"></span>
+  </div>
+
+  <!-- Typed.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    var typed = new Typed('#typed', {
+      strings: [
+        
+        "<span class='_na'>My name is </span><br>"+
+        "<span class='_user'>Bharat Bhatt</span>",
+        "<span class='_na'>I am a </span><br>"+
+        "<span class='_user'>Web Developer</span>"
+      ],
+      typeSpeed: 60,
+      backSpeed: 40,
+      loop: true
+    });
+    </script>
+
     <div class="pic">
       <img id="img" src="img/bharat.png" alt="" />
     </div>
-
-    <div class="name">
-      <h1 class="_na">Hello,My Name is</h1>
-      <p class="_user">Bharat Bhatt</p>
-    </div>
   </div>
+
 
   <div class="about" id="pro">
     <h2 align="center" class="ame">Projects</h2>
