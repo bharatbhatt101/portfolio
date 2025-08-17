@@ -1039,6 +1039,7 @@ i:hover {
 
     .n {
         display: flex;
+        height: fit-content;
         justify-content: center;
         align-items: center;
         text-align: center;
