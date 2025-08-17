@@ -11,6 +11,7 @@ html {
 
 body {
     background-color: #181212;
+    clip-path: circle(100% at 50% 50%);
 
 }
 
@@ -1114,6 +1115,7 @@ i:hover {
 
     .about {
         width:auto;
+
     }
 
     .ame {
@@ -1293,6 +1295,16 @@ i:hover {
         margin-top: 2rem;
 
     }
+
+    .about, .n {
+    
+    border-radius: 5rem;
+    background-color: #181818;
+    margin: 10rem 2.5rem;
+    width:auto;
+    padding: 2rem;
+    
+}
 
     i:hover {
         cursor: pointer;
