@@ -19,10 +19,6 @@ body {
     height: 8rem;
     background-color: #181818;
     position: fixed;
-    /* display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align:center; */
     top: 0;
     left: 0;
     margin-bottom: 1rem;
@@ -187,12 +183,38 @@ i {
 
 .ap1 {
     min-width: 25rem;
+    min-height: 25rem;
     max-width: 100%;
     background-color: #181818;
     border-radius: 2rem;
     width: fit-content;
+    display: block;
 }
 
+.ap1:hover {
+       
+       
+       opacity:0.8;
+}
+
+.ap2
+{
+    
+    display:none;
+}
+
+.ap2:hover
+{
+    color: white;
+    min-width: 25rem;
+    min-height: 25rem;
+    max-width: 100%;
+    background-color: #181818;
+    border-radius: 2rem;
+    width: fit-content;
+    display:block;
+    
+}
 .lang {
     border: .2rem solid white;
     border-radius: 2rem;
@@ -203,7 +225,7 @@ i {
 
 ._text1 {
 
-    margin: 30rem;
+    margin: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -215,7 +237,7 @@ i {
 
 ._text2 {
 
-    margin: 20rem;
+    margin: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -228,7 +250,7 @@ i {
 ._text3 {
 
 
-    margin: 6rem;
+    /* margin: 6rem; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -260,7 +282,7 @@ i {
 }
 
 .pdf-viewer {
-    width: fit-content;
+    width:fit-content;
     height: 100%;
     border: none;
     margin-bottom: 5rem;
@@ -315,7 +337,7 @@ i {
 
 .n {
 
-    height: 100%;
+    height:100%;
     background: #181818;
     margin: 10rem 5rem;
     border-radius: 12rem;
@@ -330,7 +352,7 @@ i {
     color: grey;
     margin-top: 1.5rem;
     font-size: 2rem;
-
+    
 }
 
 .user {
@@ -363,7 +385,7 @@ i {
 
 
 ._text::before {
-
+    
     margin: 5rem;
     font-size: 3rem;
     text-align: center;
@@ -381,7 +403,7 @@ i {
 
 ._text2::before {
     content: "Resume";
-
+    
     margin: 5rem;
     font-size: 3rem;
     text-align: center;
@@ -398,17 +420,17 @@ i {
     font-size: 1.5rem;
     padding: 1rem;
     border: .2rem solid white;
-
+    
 }
 
 .batt:hover {
     background-color: orange;
-
+    
 }
 
 ._text3::before {
     content: "Contact Me";
-
+    
     margin: 5rem;
     font-size: 3rem;
     text-align: center;
@@ -416,19 +438,19 @@ i {
 }
 
 .about {
-    margin: 10rem 5rem;
-    height: auto;
-    width: auto;
-    background: #181818;
+    
     border-radius: 12rem;
+    background-color: #181818;
+    margin: 10rem 5rem;
     padding: 2rem;
+    
 }
 
 .ame {
-
+    
     font-size: 3rem;
     color: white;
-
+    
 
 }
 
@@ -562,14 +584,12 @@ i:hover {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        /* flex-direction: column; */
-
         padding: 2rem;
         border: .1rem solid #19435d;
-
+        
         
     }
-
+    
     .box:hover {
         width: 100%;
         cursor: pointer;
@@ -580,14 +600,14 @@ i:hover {
 
     .name {
         padding: .5rem;
-
+        
 
 
 
     }
 
     .in1 {
-
+        
 
         font-size: 1.5rem;
         z-index: 10;
@@ -596,12 +616,23 @@ i:hover {
 
     .in2 {
 
-
+        
         border-radius: 1rem;
         font-size: 1.5rem;
-
+        
 
     }
+
+
+    .ap1 {
+    min-width: 20rem;
+    min-height: 20rem;
+    max-width: 100%;
+    background-color: #181818;
+    border-radius: 2rem;
+    width: fit-content;
+    display: block;
+}
 
     .in3 {
         width: 30rem;
@@ -631,20 +662,30 @@ i:hover {
         color: orange;
         font-size: 5rem;
     }
-
+    
 
     /* .port {
         
-        text-align: left;
+    text-align: left;
         border:.1rem solid white;
-    } */
-
-
-    ._text {
-        margin: 4rem;
-        font-size: 1.5rem;
-        padding: 1.5rem;
-        color: white;
+        } */
+        
+        
+        ._text {
+            margin: 4rem;
+            font-size: 1.5rem;
+            max-height:25rem;
+            padding: 1.5rem;
+            color: white;
+            overflow-y: scroll;
+            overflow-x: hidden;
+            scrollbar-width:thin;
+            flex-direction: column;
+        }
+        
+        ::-webkit-scrollbar{
+            
+            scrollbar-gutter:blue;
     }
 
     ._text1 {
@@ -689,10 +730,7 @@ i:hover {
         color: white;
     }
 
-    .about {
-        margin-top: 27rem;
-    }
-
+  
     .ame {
         margin: 5rem;
         border: .1rem solid transparent;
@@ -874,7 +912,7 @@ i:hover {
     * {
         margin: 0;
         padding: 0;
-        /* appearance:none; */
+        appearance:none;
     }
 
     html {
@@ -1005,6 +1043,8 @@ i:hover {
         align-items: center;
         text-align: center;
         flex-direction: column;
+
+        
     }
 
     ._user {
@@ -1056,7 +1096,7 @@ i:hover {
 
 
     .about {
-        margin-top: 27rem;
+        width:auto;
     }
 
     .ame {
