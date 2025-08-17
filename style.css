@@ -938,15 +938,19 @@ i:hover {
 
     .hi {
         font-size: 1.6rem;
-
+        text-align: justify;
+        margin:0rem;
+        
     }
-
+    
     .hi1 {
+        margin:0rem;
         margin-top: 1.5rem;
         font-size: 1.6rem;
+        text-align: justify;
 
     }
-
+    
     .batt {
         background-color: grey;
         color: white;
@@ -972,18 +976,21 @@ i:hover {
         border: .2rem solid white;
 
     }
-
+    
     .mytech {
         display: flex;
-        justify-content: left;
+        justify-content:center;
         flex-wrap: wrap;
+        margin:0rem;
+        margin-top:5rem;
         text-align: center;
         align-items: center;
     }
 
     .tec1 {
         padding: 1.2rem;
-        width: 6rem;
+        min-width:auto;
+        width:7rem;
         font-size: 1.2rem;
         margin: .5rem;
         border: .2rem solid white;
@@ -1011,7 +1018,7 @@ i:hover {
 
 
         font-size: 1.5rem;
-        z-index: 10;
+    
         border-radius: 1rem;
     }
 
@@ -1025,11 +1032,17 @@ i:hover {
     }
 
     .in3 {
-        width: 30rem;
-        height: 4rem;
+        
+        
+        min-height: 3rem;
+        border:.1rem solid white;
         cursor: pointer;
+        display:flex;
+        justify-content: center;
+        align-items: center;
         border-radius: 1rem;
-        padding:5rem;
+        font-size:1.5rem;
+        padding:0rem;
         background-color: #19435d;
         color: white;
     }
@@ -1160,6 +1173,18 @@ i:hover {
         color: black;
         border-radius: 2rem;
 
+    }
+
+    .about ,.n
+    {
+        margin:8rem 4rem;
+        border-radius:5rem;
+    }
+
+    .box, .ap1
+    {
+        width:auto;
+        max-height:10rem;
     }
 
     .hire:hover {
