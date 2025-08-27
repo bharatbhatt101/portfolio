@@ -1,16 +1,16 @@
 <html>
-  
-  <head>
-    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
-    <title>Bharat Bhatt-Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
+  <title>Bharat Bhatt-Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css" />
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-  
-    
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+
 </head>
 
 <body>
@@ -25,14 +25,14 @@
 
     <div id="uni">
       <nav id="_uni">
-        <input type="radio" id="in"  name="nav" checked>
-        <label for="in"  onclick="Close(), int()">Intro</label>
+        <input type="radio" id="in" name="nav" checked>
+        <label for="in" onclick="Close(), int()">Intro</label>
         <input type="radio" id="pj" name="nav">
         <label for="pj" onclick="Close(), pro()">Projects</label>
         <input type="radio" id="abm" name="nav">
-        <label for="abm"  onclick="Close() ,abt()">About</label>
+        <label for="abm" onclick="Close() ,abt()">About</label>
         <input type="radio" id="rse" name="nav">
-        <label for="rse"  onclick="Close(),res()">Resume</label>
+        <label for="rse" onclick="Close(),res()">Resume</label>
         <input type="radio" id="contt" name="nav">
         <label for="contt" onclick="Close(),con()">Contact</label>
       </nav>
@@ -54,28 +54,28 @@
   </div>
 
 
-  <div class="n" >
-    
+  <div class="n">
+
 
     <div class="typing name">
-    <span id="typed"></span>
-  </div>
+      <span id="typed"></span>
+    </div>
 
-  <!-- Typed.js CDN -->
-  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-  <script>
-    var typed = new Typed('#typed', {
-      strings: [
-        
-        "<span class='_na'>My name is </span><br>"+
-        "<span class='_user'>Bharat Bhatt</span>",
-        "<span class='_na'>I am a </span><br>"+
-        "<span class='_user'>Web Developer</span>"
-      ],
-      typeSpeed: 60,
-      backSpeed: 40,
-      loop: true
-    });
+    <!-- Typed.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed('#typed', {
+        strings: [
+
+          "<span class='_na'>My name is </span><br>" +
+          "<span class='_user'>Bharat Bhatt</span>",
+          "<span class='_na'>I am a </span><br>" +
+          "<span class='_user'>Web Developer</span>"
+        ],
+        typeSpeed: 60,
+        backSpeed: 40,
+        loop: true
+      });
     </script>
 
     <div class="pic">
@@ -93,7 +93,7 @@
         <div class="nig">
           <b class="lang">HTML</b><b class="lang">CSS</b><b class="lang">JAVASCRIPT</b><b class="lang">PHP</b><b
             class="lang">MYSQL</b>
-            
+
         </div>
       </div>
       <div class="box" onclick="pro5()">
@@ -101,13 +101,13 @@
         <div><a class="ap">E-Commerce Website</a></div>
         <div class="nig">
           <b class="lang">Shopify</b>
-            <!-- <a href=""><button>Open</button></a> -->
+          <!-- <a href=""><button>Open</button></a> -->
         </div>
       </div>
 
       <div class="box" onclick="pro2()">
         <p class="ap2">Description</p>
-        <div><img src="img/image.png"  class="ap1">
+        <div><img src="img/image.png" class="ap1">
         </div>
         <div><a class="ap">Amazon Clone</a></div>
         <div class="nig"><b class="lang">HTML</b><b class="lang">CSS</b></div>
@@ -117,7 +117,7 @@
         <div><a class="ap">WhatsApp clone</a></div>
         <div class="nig"><b class="lang">HTML</b><b class="lang">CSS</b></div>
       </div>
-      <div class="box"  onclick="pro4()">
+      <div class="box" onclick="pro4()">
         <div><img src="img/image3.png" class="ap1"></div>
         <div><a class="ap">Calculator</a></div>
         <div class="nig">
@@ -125,7 +125,8 @@
         </div>
       </div>
     </div>
-   <center> <div><a href="more.html"><button class="batt">More Projects</button></a></div>
+    <center>
+      <div><a href="more.html"><button class="batt">More Projects</button></a></div>
   </div>
   <div class="about" id="abme">
     <h2 align="center" class="ame"></h2>
@@ -145,15 +146,43 @@
       </p>
       <h1 class="tech">Technologies</h1>
       <div class="mytech">
-        <p class="tec1" id="htm" onclick="html()">HTML</p>
-        <p class="tec1" id="css" onclick="cs()">CSS</p>
-        <p class="tec1" id="jav" onclick="js()">JAVASCRIPT</p>
-        <p class="tec1" id="php" onclick="ph()">PHP</p>
-        <p class="tec1" id="mys" onclick="mysq()">MYSQL</p>
-        <p class="tec1" id="cl" onclick="ca()">C</p>
-        <p class="tec1" id="cll" onclick="caa()">C++</p>
-        <p class="tec1" id="ja" onclick="java()">JAVA</p>
-        <p class="tec1" id="gi" onclick="git()">Git</p>
+        <div class="mylang" style="background:linear-gradient(360deg,#F06529 80%,#181818 20%);">
+          <div class="tec1" id="htm" onclick="html()">HTML</div>
+        </div>
+        <div class="mylang"
+          style="background:linear-gradient(360deg,#264DE4 80%,#181818 20%                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      );">
+          <div class="tec1" id="css" onclick="cs()">CSS</div>
+        </div>
+        <div class="mylang" style="background:linear-gradient(360deg,#F7DF1E 50%,#181818 50%);">
+          <div class="tec1" id="jav" onclick="js()">JAVASCRIPT</div>
+        </div>
+        <div class="mylang" style="background:linear-gradient(360deg,#777BB4 70%,#181818 30% );">
+          <div class="tec1" id="php" onclick="ph()">PHP</div>
+        </div>
+        <div class="mylang" style="background:linear-gradient(360deg,#00758F 50%,#181818 50% );">
+          <div class="tec1" id="mys" onclick="mysq()">MYSQL</div>
+        </div>
+        <div class="mylang" style="background:linear-gradient(360deg,#283593 40%,#181818 60% );">
+          <div class="tec1" id="cl" onclick="ca()">C</div>
+        </div>
+        <div class="mylang" style="background:linear-gradient(360deg,#00599C 40%,#181818 60%);">
+          <div class="tec1" id="cll" onclick="caa()">C++</div>
+        </div>
+        <div class="mylang" style="background:linear-gradient(360deg,#E76F00 30%,#181818 70%);">
+          <div class="tec1" id="ja" onclick="java()">JAVA</div>
+        </div>
+        <div class="mylang" style="background:linear-gradient(360deg,#3776AB 30%,#181818 70% );">
+          <div class="tec1" id="p" onclick="py()">PYTHON</div>
+        </div>
+        <div class="mylang" style="background:linear-gradient(360deg,#F05032 60%,#181818 40% );">
+          <div class="tec1" id="gi" onclick="git()">Git</div>
+        </div>
+        <div class="mylang" style="background:linear-gradient(360deg,#21759B 60%,#181818 40% );">
+          <div class="tec1" id="w" onclick="wp()">WORDPRESS</div>
+        </div>
+        <div class="mylang" style="background:linear-gradient(360deg,#95BF47 60%,#181818 40% );">
+          <div class="tec1" id="s" onclick="sp()">SHOPIFY</div>
+        </div>
       </div>
     </div>
   </div>
@@ -175,7 +204,7 @@
     <div class="_text3">
       <form method="get" onsubmit="messg()">
         <label for="na">Email:</label><br />
-        <input type="email" id="na" class="in1" placeholder="Enter email"  required /><br />
+        <input type="email" id="na" class="in1" placeholder="Enter email" required /><br />
         <label for="mess">Message:</label><br />
         <input type="text" id="mess" class="in2" placeholder="Your message" required /><br />
 
@@ -185,7 +214,8 @@
   </div>
 
   <div class="footer">
-    <div class="facebook"><a href="https://www.facebook.com/bharat.bhatt.94651774/"><i class="fa-brands fa-facebook i1"></i></a></div>
+    <div class="facebook"><a href="https://www.facebook.com/bharat.bhatt.94651774/"><i
+          class="fa-brands fa-facebook i1"></i></a></div>
     <div class="github"><a href="https://github.com/bharatbhatt101"><i class="fa-brands fa-github i1"></i></a></div>
     <div class="gmail"><a href="mailto:bharatbhatt2003bk@gmail.com"><i class="fa-solid fa-envelope i1"></i></a></div>
   </div>
@@ -209,16 +239,16 @@
   }
 
   function html() {
-    htm.style.background = "red";
+    htm.style.background = "#E34F26";
   }
 
   function cs() {
-    css.style.background = "blue";
+    css.style.background = "#2965F1";
   }
 
   function js() {
-    jav.style.background = "yellow";
-    jav.style.color = "black";
+    jav.style.background = "#264DE4";
+    jav.style.color = "#fffff";
   }
 
   function ph() {
@@ -230,24 +260,35 @@
   }
 
   function ca() {
-    cl.style.background = "blue";
+    cl.style.background = "#5C6BC0";
   }
 
   function caa() {
-    cll.style.background = "blue";
+    cll.style.background = "#004482";
   }
 
   function java() {
-    ja.style.background = "red";
+    ja.style.background = "#5382A1";
+  }
+  function py() {
+    p.style.background = "#FFD43B";
   }
 
   function git() {
     gi.style.background = "white";
     gi.style.color = "black";
   }
+  function wp() {
+    w.style.background = "#444140";
+    
+  }
+  function sp() {
+    s.style.background = "#5E8E3E";
+    // gi.style.color = "black";
+  }
 
   function hm() {
-    
+
     window.location.href = "https://www.linkedin.com/in/bharatbhatt444/";
   }
 
