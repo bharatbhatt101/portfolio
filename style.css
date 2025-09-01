@@ -240,6 +240,11 @@ i {
 
 }
 
+.nig
+{
+    display: flex;
+}
+
 .lang {
     border: .2rem solid white;
     border-radius: 2rem;
@@ -999,7 +1004,7 @@ i:hover {
 
 }
 
-@media screen and (max-width:470px) {
+@media screen and (max-width:470px) and (orientation: portrait){
 
     * {
         margin: 0;
@@ -1110,6 +1115,7 @@ i:hover {
     .in1 {
 
 
+        width: auto;
         font-size: 1.5rem;
 
         border-radius: 1rem;
@@ -1117,7 +1123,7 @@ i:hover {
 
     .in2 {
 
-
+        width: auto;
         border-radius: 1rem;
         font-size: 1.5rem;
 
@@ -1125,11 +1131,13 @@ i:hover {
     }
 
     .in3 {
-
-
+        
+        min-width: auto;
+        width: 20rem;   
         min-height: 3rem;
         border: .1rem solid white;
         cursor: pointer;
+        /* border:.1rem solid red; */
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1143,9 +1151,15 @@ i:hover {
     ._na {
         color: white;
         margin: 2.5rem;
-        font-size: 4rem;
+        margin-right:0rem;
+        font-size: 3rem;
     }
-
+    
+    .typed-cursor {
+        font-size: 3.5rem;
+        color: orange;
+    }
+    
     .n {
         display: flex;
         width: auto;
@@ -1155,115 +1169,134 @@ i:hover {
         align-items: center;
         text-align: center;
         flex-direction: column-reverse;
-
-
+        
+        
     }
-
+    
     ._user {
-
+        
         color: orange;
-        font-size: 4rem;
-        margin-left: 2rem;
+        font-size: 3rem;
     }
-
+    
 
     /* .port {
         
         text-align: left;
         border:.1rem solid white;
-    } */
+        } */
 
     ._text {
-        margin: 4rem;
+        margin: 1rem;
         font-size: 1.5rem;
-        padding: 1.5rem;
+        padding: 1rem;
+        /* border:.2rem solid green; */
         color: white;
     }
-
+    
     ._text1 {
-        margin: 3rem;
+
+        margin: 1rem;
         font-size: 1.5rem;
-        padding: 1.5rem;
+        padding: 1rem;
         color: white;
     }
-
+    
     ._text2 {
-        margin: 4rem;
+        margin: 1rem;
         font-size: 1.5rem;
-        padding: 1.5rem;
+        padding: 1rem;
         color: white;
     }
-
+    
     ._text3 {
-        margin: 4rem;
-        font-size: 1.5rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: left;
-        padding: 1.5rem;
+        margin: 1rem;
+        font-size: 1.2rem;
+    
+    
+        padding: 1rem;
         color: white;
     }
-
-
-
-
-    .about {
+    
+    /* body
+    {
+         border:.4rem solid blue; 
+        align-content: center;
         width: auto;
+        height: auto;
+
+        
+    } */
+    
+    .about,
+    .n {
+        
+        border-radius: 2rem;
+        background-color: #181818;
+        margin: 8.5rem 1rem;
+        height:fit-content;
+        padding: 1.2rem;
 
     }
+    
+
+    
 
     .ame {
-        margin: 5rem;
-        border: .1rem solid transparent;
+        margin: 3rem;
         padding: 2rem;
         text-align: center;
         color: white;
 
     }
-
+    
     .i {
-        text-align: right;
+        float: right;
         color: white;
-        margin-top: -8.5rem;
-        margin-right: 3.5rem;
+        width: fit-content;
+        margin-top: -8rem;
+        margin-right: 2.5rem;
         font-size: 3rem;
     }
 
-
+    
     #_uni label:hover {
-
+        
         color: orange;
         font-size: 2rem;
         padding: 3rem;
         margin-right: 4rem;
     }
-
+    
     #uni {
-        width: 100%;
+        width: 85%;
         height:100%;
         display: none;
         position: fixed;
-        overflow-y: scroll;
-        scrollbar-width:thin;
-        margin-top: 2rem;
+        /* border:.2rem solid white; */
+        border:none;
+        margin-top: 0rem;
         /* margin-left: -1.5rem; */
         background-color: #181212;
     }
-
+    
     #_uni {
         display: none;
-        width: 100%;
+        padding:1.2rem;
+        margin-top:1rem ;
+        width: 85%;
         height:100%;
         flex-direction: column;
+        scrollbar-width:thin;
+        overflow-y: scroll;
         justify-content: center;
         align-items: center;
         text-align: left;
 
     }
-
+    
     .hire {
-
+        
         border: .2rem solid orange;
         background-color: orange;
         font-size: 1.7rem;
@@ -1272,23 +1305,20 @@ i:hover {
         padding: 0.8rem;
         color: black;
         border-radius: 2rem;
-
+        
     }
-
-    .about,
-    .n {
-        margin: 8rem 4rem;
-        border-radius: 5rem;
-    }
-
-    .box,
+    
+    
     .ap1 {
-        width: auto;
-        max-height: 10rem;
+        min-width:0rem;
+        width:20rem ;
+        height:14rem ;
+        border-radius:2rem;
+        min-height:0rem;
     }
-
+    
     .hire:hover {
-
+        
         border: .2rem solid white;
         background-color: orange;
         font-size: 1.7rem;
@@ -1297,57 +1327,68 @@ i:hover {
         padding: 0.8rem;
         color: black;
         border-radius: 2rem;
-
+        
     }
-
+    
     #_uni label {
-
-        padding: 3rem;
+        
+        padding: 1.5rem;
         color: white;
-        font-size: 2rem;
+        width:auto;
+        font-size: 1.5rem;
         display: inline-block;
+        margin-left:0rem;
         border: none;
-        border-bottom: .2rem solid white;
-        width: 100%;
-
+        /* border: .2rem solid white; */
+        width: 85%;
+        
     }
-
+    
 
     .box {
-
+        
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 2.5rem;
-
+        padding: 1rem;
+        min-width:auto;
+        min-height:auto;
         border: .1rem solid white;
         cursor: pointer;
-
-
+        
+        
     }
-
+    
     /* .box:hover {
         
-
-         background-color: rgb(244, 184, 72);
-        height: 6rem;
+    
+    background-color: rgb(244, 184, 72);
+    height: 6rem;
     } */
-
+    
     .ap {
         color: white;
         text-decoration: none;
-        font-size: 2.3rem;
-
+        text-align: center;
+        margin-top: 1rem;
+        font-size: 1.5rem;
+        
     }
-
+    
     .nig {
-
-        margin-top: 1.5rem;
+        
+        margin-top: 1rem;
+        display: flex;
+        width:20rem;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
     }
-
+    
     .lang {
-
+        
         border: .2rem solid white;
+    
         border-radius: 1rem;
         padding: .3rem;
         font-size: 1rem;
@@ -1360,10 +1401,10 @@ i:hover {
         border: none;
         margin-bottom: 5rem;
         font-size: 2rem;
-
-
+        
+        
     }
-
+    
     .resbox {
         border: .2rem solid white;
 
@@ -1373,49 +1414,39 @@ i:hover {
         text-decoration: none;
         font-size: 2rem;
     }
+    
 
-
-
+    
     .resbox a:hover {
         text-decoration: none;
         margin: 2.5rem;
         color: white;
         background-color: blue;
-
-
+        
+        
         font-size: 2rem;
     }
-
-
+    
+    
     i {
-
+        
         padding: .5rem;
         margin-top: 2rem;
-
+        
     }
 
-    .about,
-    .n {
-
-        border-radius: 5rem;
-        background-color: #181818;
-        margin: 10rem 2.5rem;
-        width: auto;
-        padding: 2rem;
-
-    }
 
     i:hover {
         cursor: pointer;
         color: orange;
         padding: .5rem;
-
+        
     }
-
+    
     .footer {
         width: 100%;
         height: 6rem;
-        margin-bottom: 2.5rem;
+        margin-bottom: 0rem;
         display: flex;
         background-color: #19435d;
         justify-content: center;
@@ -1429,7 +1460,7 @@ i:hover {
         font-size: 2.6rem;
 
     }
-
+    
 }
 
 @media screen and (max-width:1037px) {
