@@ -8,15 +8,83 @@
 html {
     font-size: 62.5%;
 }
+body.light
+{
+
+    background: #ffffff;
+}
+
+
+body.light .header,
+body.light .about,
+body.light #uni,
+body.light .n,
+body.light .tec1,
+body.light .box {
+  color: #000000;
+  background-color:#f2f2f2;
+  box-shadow: 0 .2rem .8rem rgba(0,0,0,0.1);
+}
+
+body.light a,
+body.light div,
+body.light .hire,
+body.light p,
+body.light #uni label,
+body.light #main label,
+body.light ._na,
+body.light .lang,
+body.light .ame,
+body.light ._text1::before,
+body.light ._text2::before,
+body.light ._text3::before,
+body.light .resbox {
+  color:#000000;        /* blue links */
+}
+
+
+body.light ._user,
+body.light .user,
+body.light .typed-cursor
+{
+    color:blue;
+}
+body.light .lang
+{
+    border:.1rem solid black;
+}
+
+    .toggle-btn {
+      position: fixed;
+      top:5%;
+      left: 22%;
+      padding: 1rem 1rem;
+      border: none;
+      border-radius:50%;
+      cursor: pointer;
+      background: orange;
+      color: white;
+      font-weight: bold;
+    }
+
+
+    /* Dark Mode */
+    body.dark {
+      background: #121212;
+   
+    }
+
+    
 
 body {
-    background-color: #181212;
-    clip-path: circle(100% at 50% 50%);
+    /* background-color: #181212; */
+    transition: background 0.3s, color 0.3s;
 
 }
 
 .header {
     width: 100%;
+    z-index:10000;
     height: 8rem;
     background-color: #181818;
     position: fixed;
@@ -385,7 +453,7 @@ i {
 .name {
 
     width: max-content;
-
+    /* border:.2rem solid white; */
 }
 
 .typing {
@@ -405,8 +473,10 @@ i {
 .n {
 
     height: 100%;
+    min-height:100%;
     background: #181818;
     display: flex;
+    /* border:.2rem solid red; */
     justify-content: space-between;
     align-items: center;
     padding-left: 5rem;
@@ -1204,7 +1274,7 @@ i:hover {
         margin: 1rem;
         font-size: 1.5rem;
         padding: 1rem;
-        /* border:.2rem solid green; */
+        border:.2rem solid green;
         color: white;
     }
     
@@ -1364,6 +1434,7 @@ i:hover {
         align-items: center;
         padding: 1rem;
         min-width:auto;
+        border:.1rem solid red;
         min-height:auto;
         border: .1rem solid white;
         cursor: pointer;

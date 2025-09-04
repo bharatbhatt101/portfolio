@@ -9,15 +9,19 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="style.css" />
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+   
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 
 </head>
 
-<body>
-  <div class="header">
+<body class="dark">
+  <div class="header" >
     <p class="port"></p>
 
     <div class="i">
+      <button class="toggle-btn" onclick="toggleTheme()">☀️</button>
       <a class="hire" onclick="hm()">Hire me</a>
       <i class="fa-solid fa-bars" id="aa" onclick="Open()"></i>
       <i class="fa-solid fa-xmark" id="cls" onclick="Close()" style="display: none"></i>
@@ -54,7 +58,7 @@
   </div>
 
 
-  <div class="n">
+  <div class="n" data-aos="fade-up">
 
 
     <div class="typing name">
@@ -86,8 +90,8 @@
 
   <div class="about" id="pro">
     <h2 align="center" class="ame">Projects</h2>
-    <div class="_text">
-      <div class="box" onclick="pro1()">
+    <div class="_text" data-aos="zoom-in">
+      <div class="box"  onclick="pro1()">
         <div><img src="img/image2.png" class="ap1"></div>
         <div><a class="ap">E-Medical</a></div>
         <div class="nig">
@@ -144,12 +148,12 @@
       </div>
     </div>
     <center>
-      <div><a href="more.html"><button class="batt">More Projects</button></a></div>
+      <div><a href="more.html"><button data-aos="zoom-in" class="batt">More Projects</button></a></div>
   </div>
   <div class="about" id="abme">
     <!-- <h2 align="center" class="ame"></h2> -->
-    <div class="_text1">
-      <div class="com">
+    <div class="_text1" >
+      <div class="com" data-aos="fade-up">
 
         <p class="hi">
           Hello there 👋, I am <user class="user">Bharat Bhatt</user>, a recent BCA graduate with a keen interest in Web
@@ -170,7 +174,7 @@
     </div>
       <h1 class="tech">Technologies</h1>
       <div class="mytech">
-        <div class="ml">
+        <div class="ml" data-aos="flip-left">
           <div class="mylang" style="background:linear-gradient(360deg,#F06529 60%,#181818 40%);">
             <div class="tec1" id="htm" onclick="html()"></div>
           </div>
@@ -178,7 +182,7 @@
             <p>HTML</p>
           </div>
         </div>
-        <div class="ml">
+        <div class="ml" data-aos="flip-left">
           <div class="mylang"
             style="background:linear-gradient(360deg,#264DE4 60%,#181818 40%                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      );">
             <div class="tec1" id="css" onclick="cs()"></div>
@@ -187,7 +191,7 @@
             <p>CSS</p>
           </div>
         </div>
-        <div class="ml">
+        <div class="ml" data-aos="flip-left">
           <div class="mylang" style="background:linear-gradient(360deg,#F7DF1E 50%,#181818 50%);">
             <div class="tec1" id="jav" onclick="js()"></div>
           </div>
@@ -195,7 +199,7 @@
             <p>JS</p>
           </div>
         </div>
-        <div class="ml">
+        <div class="ml" data-aos="flip-left">
           <div class="mylang" style="background:linear-gradient(360deg,#777BB4 70%,#181818 30% );">
             <div class="tec1" id="php" onclick="ph()"></div>
           </div>
@@ -203,7 +207,7 @@
             <p>PHP</p>
           </div>
         </div>
-        <div class="ml">
+        <div class="ml" data-aos="flip-left">
           <div class="mylang" style="background:linear-gradient(360deg,#00758F 50%,#181818 50% );">
             <div class="tec1" id="mys" onclick="mysq()"></div>
           </div>
@@ -211,7 +215,7 @@
             <p>MYSQL</p>
           </div>
         </div>
-        <div class="ml">
+        <div class="ml" data-aos="flip-left">
           <div class="mylang" style="background:linear-gradient(360deg,#283593 40%,#181818 60% );">
             <div class="tec1" id="cl" onclick="ca()"></div>
           </div>
@@ -219,7 +223,7 @@
             <p>C</p>
           </div>
         </div>
-        <div class="ml">
+        <div class="ml" data-aos="flip-left">
           <div class="mylang" style="background:linear-gradient(360deg,#00599C 40%,#181818 60%);">
             <div class="tec1" id="cll" onclick="caa()"></div>
           </div>
@@ -227,7 +231,7 @@
             <p>C++</p>
           </div>
         </div>
-        <div class="ml">
+        <div class="ml" data-aos="flip-left">
           <div class="mylang" style="background:linear-gradient(360deg,#E76F00 30%,#181818 70%);">
             <div class="tec1" id="ja" onclick="java()"></div>
           </div>
@@ -235,7 +239,7 @@
             <p>JAVA</p>
           </div>
         </div>
-        <div class="ml">
+        <div class="ml" data-aos="flip-left">
           <div class="mylang" style="background:linear-gradient(360deg,#3776AB 30%,#181818 70% );">
             <div class="tec1" id="p" onclick="py()"></div>
           </div>
@@ -243,7 +247,7 @@
             <p>PYTHON</p>
           </div>
         </div>
-        <div class="ml">
+        <div class="ml" data-aos="flip-left">
           <div class="mylang" style="background:linear-gradient(360deg,#F05032 60%,#181818 40% );">
             <div class="tec1" id="gi" onclick="git()"></div>
           </div>
@@ -251,7 +255,7 @@
             <p>Git</p>
           </div>
         </div>
-        <div class="ml">
+        <div class="ml" data-aos="flip-left">
           <div class="mylang" style="background:linear-gradient(360deg,#21759B 60%,#181818 40% );">
             <div class="tec1" id="w" onclick="wp()"></div>
           </div>
@@ -259,7 +263,7 @@
             <p>WP</p>
           </div>
         </div>
-        <div class="ml">
+        <div class="ml" data-aos="flip-left">
           <div class="mylang" style="background:linear-gradient(360deg,#95BF47 60%,#181818 40% );">
             <div class="tec1" id="s" onclick="sp()"></div>
           </div>
@@ -277,8 +281,8 @@
   <div class="about" id="res">
     <!-- <h2 align="center" class="ame"></h2> -->
     <div class="_text2">
-      <object class="pdf-viewer" data="img/resumeb.pdf" type="application/pdf"></object><br>
-      <div><a href="img/resumeb.pdf" class="resbox" download="resumeb.pdf">Download</a>
+      <object data-aos="fade-up" class="pdf-viewer" data="img/resumeb.pdf" type="application/pdf"></object><br>
+      <div><a href="img/resumeb.pdf" class="resbox" data-aos="zoom-in" download="resumeb.pdf">Download</a>
 
       </div>
     </div>
@@ -288,10 +292,10 @@
   <div class="about" id="coon">
 
 
-    <div class="_text3">
+    <div class="_text3" data-aos="fade-up" data-aos-delay="500">
       <form method="get" onsubmit="messg()">
         <label for="na">Email:</label><br />
-        <input type="email" id="na" class="in1" placeholder="Enter email" required /><br />
+        <input type="email"  id="na" class="in1" placeholder="Enter email" required /><br />
         <label for="mess">Message:</label><br />
         <input type="text" id="mess" class="in2" placeholder="Your message" required /><br />
 
@@ -418,6 +422,29 @@
   function con() {
     window.location.href = "#coon";
   }
+
+  
+ const savedTheme = localStorage.getItem("theme") || "dark";
+    document.body.className = savedTheme;
+
+    const btn = document.querySelector(".toggle-btn");
+    btn.textContent = savedTheme === "dark" ? "☀️" : "🌙";
+
+    function toggleTheme() {
+      if (document.body.classList.contains("light")) {
+        document.body.className = "dark";
+        btn.textContent = "☀️";
+        localStorage.setItem("theme", "dark");
+      } else {
+        document.body.className = "light";
+        btn.textContent = "🌙";
+        localStorage.setItem("theme", "light");
+      }
+    }
+
+
+  AOS.init();
+
 </script>
 
 </html>
