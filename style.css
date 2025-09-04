@@ -1274,7 +1274,7 @@ i:hover {
         margin: 1rem;
         font-size: 1.5rem;
         padding: 1rem;
-        border:.2rem solid green;
+        /* border:.2rem solid green; */
         color: white;
     }
     
