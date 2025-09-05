@@ -8,22 +8,50 @@
 html {
     font-size: 62.5%;
 }
-body.light
-{
 
-    background: #ffffff;
+body.light {
+
+    background: #b9b9b9;
 }
 
+body.light .pic,
+body.light .in3 {
+    background: #00d4ff;
+}
 
-body.light .header,
+body.light .port {
+    background: #121212;
+}
+body.light .toggle-btn {
+    background:white;
+}
+
 body.light .about,
 body.light #uni,
 body.light .n,
 body.light .tec1,
 body.light .box {
-  color: #000000;
-  background-color:#f2f2f2;
-  box-shadow: 0 .2rem .8rem rgba(0,0,0,0.1);
+    color: #000000;
+    background-color: #dcd9d963;
+    box-shadow: 0 .2rem .8rem rgba(74, 74, 74, 0.1);
+}
+
+body.light .header {
+    background: linear-gradient(135deg, #0077ff, #00d4ff);
+
+
+}
+
+body.light a.hire,
+body.light #aa {
+
+    color: transparent;
+}
+
+body.light #main .hire {
+    background: white;
+    color: #00d4ff;
+    border: .1rem solid #ffff;
 }
 
 body.light a,
@@ -39,42 +67,42 @@ body.light ._text1::before,
 body.light ._text2::before,
 body.light ._text3::before,
 body.light .resbox {
-  color:#000000;        /* blue links */
+    color: #000000;
+    /* blue links */
 }
 
 
 body.light ._user,
 body.light .user,
-body.light .typed-cursor
-{
-    color:blue;
-}
-body.light .lang
-{
-    border:.1rem solid black;
+body.light .typed-cursor {
+    color:#0077ff;
 }
 
-    .toggle-btn {
-      position: fixed;
-      top:5%;
-      left: 22%;
-      padding: 1rem 1rem;
-      border: none;
-      border-radius:50%;
-      cursor: pointer;
-      background: orange;
-      color: white;
-      font-weight: bold;
-    }
+body.light .lang {
+    border: .1rem solid black;
+}
+
+.toggle-btn {
+    position: fixed;
+    top: 5%;
+    left: 22%;
+    padding: 1rem 1rem;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    background: orange;
+    color: white;
+    font-weight: bold;
+}
 
 
-    /* Dark Mode */
-    body.dark {
-      background: #121212;
-   
-    }
+/* Dark Mode */
+body.dark {
+    background: #121212;
 
-    
+}
+
+
 
 body {
     /* background-color: #181212; */
@@ -84,7 +112,7 @@ body {
 
 .header {
     width: 100%;
-    z-index:10000;
+    z-index: 10000;
     height: 8rem;
     background-color: #181818;
     position: fixed;
@@ -98,10 +126,8 @@ body {
 .port {
     border: .1rem solid white;
     border-radius: 50%;
+    background: orange;
     width: 5rem;
-    background-image: url('img/bharat.png');
-    background-repeat: no-repeat;
-    background-size: cover;
     color: white;
     height: 5rem;
     margin: 1.5rem;
@@ -182,10 +208,10 @@ i {
 
 
 
-
 .pic {
     width: 40rem;
     border-radius: 50%;
+    background: orange;
     margin-top: 10rem;
     margin-right: 8rem;
     border: .1rem solid white;
@@ -308,8 +334,7 @@ i {
 
 }
 
-.nig
-{
+.nig {
     display: flex;
 }
 
@@ -340,7 +365,7 @@ i {
     border: .2rem solid #181212;
     border-radius: 50%;
     margin: 2rem;
-    
+
 }
 
 
@@ -446,7 +471,7 @@ i {
     cursor: pointer;
     border-radius: 2rem;
     border-radius: 1rem;
-    background-color: #19435d;
+    background-color: orange;
     color: white;
 }
 
@@ -473,7 +498,7 @@ i {
 .n {
 
     height: 100%;
-    min-height:100%;
+    min-height: 100%;
     background: #181818;
     display: flex;
     /* border:.2rem solid red; */
@@ -484,8 +509,7 @@ i {
     border-radius: 12rem;
 }
 
-.com
-{
+.com {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -495,21 +519,21 @@ i {
 .hi {
     font-size: 2rem;
     color: grey;
-    padding:.2rem;
+    padding: .2rem;
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
     /* border:.1rem solid white; */
-    letter-spacing:.2rem;
-    width:50%;
+    letter-spacing: .2rem;
+    width: 50%;
 }
 
 .hi1 {
     color: grey;
     text-align: justify;
-    letter-spacing:.2rem;
+    letter-spacing: .2rem;
     font-family: Arial, Helvetica, sans-serif;
     /* border:.1rem solid white; */
-    width:50%;
+    width: 50%;
     margin-top: 1.5rem;
     font-size: 2rem;
 
@@ -529,7 +553,7 @@ i {
     display: flex;
     justify-content: left;
     /* border:.1rem solid white; */
-    width:50%;
+    width: 50%;
     flex-wrap: wrap;
     text-align: center;
     align-items: center;
@@ -584,7 +608,7 @@ i {
 }
 
 ._text3::before {
-    content: "Contact Me";
+    content: "📩Contact Me";
 
     margin: 5rem;
     font-size: 3rem;
@@ -675,14 +699,26 @@ i:hover {
     html {
         font-size: 60.84%;
     }
+
+    body.light a.hire {
+        background: white;
+        color: #00d4ff;
+        border: .1rem solid #ffff;
+    }
+
     
+    body.light #aa {
+
+        color:white ;
+    }
+
     #main a,
     #main label {
 
         display: none;
         /* opacity: 0; */
     }
-    
+
     .pic {
         width: 25rem;
         border-radius: 50%;
@@ -696,33 +732,33 @@ i:hover {
         border-radius: 50%;
 
     }
-    
+
     .hi {
         font-size: 2rem;
         margin-left: 2.5rem;
         margin-right: 2.5rem;
         width: 90%;
     }
-    
+
     .hi1 {
         margin-left: 2.5rem;
         margin-right: 2.5rem;
         width: 90%;
         margin-top: 1.5rem;
         font-size: 2rem;
-        
+
     }
-    
+
     .mytech {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        width:90%;
+        width: 90%;
         margin: 5rem;
         text-align: center;
         align-items: center;
     }
-    
+
     .tech {
         margin-top: 5.5rem;
         margin-bottom: -2rem;
@@ -746,7 +782,7 @@ i:hover {
         align-items: center;
         padding: 2rem;
         border: .1rem solid #19435d;
-        
+
 
     }
 
@@ -755,7 +791,7 @@ i:hover {
         cursor: pointer;
 
     }
-    
+
 
 
     .name {
@@ -765,25 +801,25 @@ i:hover {
 
 
     }
-    
+
     .in1 {
 
-        
+
         font-size: 1.5rem;
         z-index: 10;
         border-radius: 1rem;
     }
 
     .in2 {
-        
-        
+
+
         border-radius: 1rem;
         font-size: 1.5rem;
 
 
     }
 
-    
+
     .ap1 {
         min-width: 20rem;
         min-height: 20rem;
@@ -808,7 +844,7 @@ i:hover {
         margin: 2.5rem;
         font-size: 4rem;
     }
-    
+
     .n {
         display: flex;
         justify-content: center;
@@ -819,24 +855,24 @@ i:hover {
         text-align: center;
         flex-direction: column-reverse;
     }
-    
+
     ._user {
-        
+
         color: orange;
         font-size: 5rem;
     }
-    
-    
+
+
     /* .port {
         
     text-align: left;
         border:.1rem solid white;
         } */
-        
-        
-        ._text {
-            margin: 1rem;
-            font-size: 1.5rem;
+
+
+    ._text {
+        margin: 1rem;
+        font-size: 1.5rem;
         max-height: 25rem;
         padding: 1.5rem;
         color: white;
@@ -850,21 +886,21 @@ i:hover {
 
         scrollbar-gutter: blue;
     }
-    
+
     ._text1 {
         margin: 1rem;
         font-size: 1.5rem;
         padding: 1.5rem;
         color: white;
     }
-    
+
     ._text2 {
         margin: 1rem;
         font-size: 1.5rem;
         padding: 1.5rem;
         color: white;
     }
-    
+
     ._text3 {
         margin: 1rem;
         font-size: 1.5rem;
@@ -875,17 +911,17 @@ i:hover {
         padding: 1.5rem;
         color: white;
     }
-    
-    
+
+
     .ap {
         color: white;
         text-decoration: none;
         font-size: 2.3rem;
-        
+
     }
 
 
-    
+
     .lang {
         border: .2rem solid white;
         border-radius: 1rem;
@@ -893,16 +929,16 @@ i:hover {
         color: white;
     }
 
-    
+
     .ame {
         margin: 5rem;
         border: .1rem solid transparent;
         padding: 2rem;
         text-align: center;
         color: white;
-        
+
     }
-    
+
     .i {
         text-align: right;
         color: white;
@@ -910,67 +946,67 @@ i:hover {
         margin-right: 3.5rem;
         font-size: 3rem;
     }
-    
-    
+
+
     #_uni label:hover {
-        
+
         color: orange;
-        font-size:2rem;
+        font-size: 2rem;
         cursor: pointer;
-        padding:1.8rem;
+        padding: 1.8rem;
         /* margin-right: 4rem; */
     }
-    
+
     /* 
     input[type="radio"]
     {
         display:none; 
         }  */
 
-        #_uni input[type="radio"]:checked+label {
-            
-            color: orange;
-            /* clip-path: circle(100% at 50% 50%); */
-            
-        }
-        
-        #uni {
-            display: none;
-            width:85%;
-            height:100%;
-            position: fixed;
-            /* border:.1rem solid white; */
-            margin-top: 2rem;
-            /* margin-left: -1.5rem; */
-            background-color: #181212;
-        }
+    #_uni input[type="radio"]:checked+label {
 
-     .about,
+        color: orange;
+        /* clip-path: circle(100% at 50% 50%); */
+
+    }
+
+    #uni {
+        display: none;
+        width: 85%;
+        height: 100%;
+        position: fixed;
+        /* border:.1rem solid white; */
+        margin-top: 2rem;
+        /* margin-left: -1.5rem; */
+        background-color: #181212;
+    }
+
+    .about,
     .n {
-        
+
         border-radius: 2rem;
         background-color: #181818;
         margin: 15rem 1rem;
-        height:fit-content;
+        height: fit-content;
         padding: 1.2rem;
         /* border: .2rem solid red; */
-        
+
     }
-    
+
     #_uni {
         display: none;
-        width:85%;
-        height:100%;
+        width: 85%;
+        height: 100%;
         flex-direction: column;
         align-items: center;
-        text-align:left;
-        
-        
-        
+        text-align: left;
+
+
+
     }
 
     .hire {
-        
+
         border: .2rem solid orange;
         background-color: orange;
         font-size: 1.7rem;
@@ -979,11 +1015,11 @@ i:hover {
         padding: 0.8rem;
         color: black;
         border-radius: 2rem;
-        
+
     }
 
     .hire:hover {
-        
+
         border: .2rem solid white;
         background-color: orange;
         font-size: 1.7rem;
@@ -994,23 +1030,23 @@ i:hover {
         border-radius: 2rem;
 
     }
-    
+
     #_uni label {
 
         padding: 1.8rem;
         color: white;
-        font-size:2rem;
-        margin-left:0rem;
+        font-size: 2rem;
+        margin-left: 0rem;
         text-decoration: none;
         display: inline-block;
         border: none;
-        width:85%;
-        
+        width: 85%;
+
     }
-    
-    
-    
-    
+
+
+
+
     .batt {
         background-color: grey;
         color: white;
@@ -1021,17 +1057,17 @@ i:hover {
         font-size: 1.5rem;
         padding: 1.5rem;
         border: .2rem solid white;
-        
+
     }
-    
+
     .batt:hover {
         background-color: orange;
-        
+
     }
-    
+
     .resbox {
         border: .2rem solid white;
-        
+
         margin-left: 8rem;
         margin-right: 8rem;
         height: 5rem;
@@ -1041,33 +1077,33 @@ i:hover {
         color: white;
     }
 
-    
-    
+
+
     .resbox:hover {
         text-decoration: none;
         margin: 5rem;
         color: white;
         background-color: blue;
-        
-        
+
+
         font-size: 2rem;
     }
-    
-    
+
+
     i {
-        
+
         padding: .5rem;
         margin-top: 2rem;
-        
+
     }
-    
+
     i:hover {
         cursor: pointer;
         color: orange;
         padding: .5rem;
-        
+
     }
-    
+
     .footer {
         width: 100%;
         height: 6rem;
@@ -1083,12 +1119,12 @@ i:hover {
         color: white;
         margin: 2.5rem;
         font-size: 2.6rem;
-        
+
     }
-    
+
 }
 
-@media screen and (max-width:470px){
+@media screen and (max-width:470px) {
 
     * {
         margin: 0;
@@ -1098,6 +1134,18 @@ i:hover {
 
     html {
         font-size: 56.65%;
+    }
+
+    body.light a.hire {
+        background: white;
+        color: #00d4ff;
+        border: .1rem solid #ffff;
+    }
+
+    body.light a.hire,
+    body.light #aa {
+
+        color: white;
     }
 
     #main a,
@@ -1117,14 +1165,14 @@ i:hover {
     .hi {
         font-size: 1.6rem;
         text-align: justify;
-        width:100%;
+        width: 100%;
         margin: 0rem;
-        
+
     }
 
     .hi1 {
         margin: 0rem;
-        width:100%;
+        width: 100%;
         margin-top: 1.5rem;
         font-size: 1.6rem;
         text-align: justify;
@@ -1161,7 +1209,7 @@ i:hover {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        width:100%;
+        width: 100%;
         margin: 0rem;
         margin-top: 5rem;
         text-align: center;
@@ -1215,9 +1263,9 @@ i:hover {
     }
 
     .in3 {
-        
+
         min-width: auto;
-        width: 20rem;   
+        width: 20rem;
         min-height: 3rem;
         border: .1rem solid white;
         cursor: pointer;
@@ -1235,15 +1283,15 @@ i:hover {
     ._na {
         color: white;
         margin: 2.5rem;
-        margin-right:0rem;
+        margin-right: 0rem;
         font-size: 3rem;
     }
-    
+
     .typed-cursor {
         font-size: 3.5rem;
         color: orange;
     }
-    
+
     .n {
         display: flex;
         width: auto;
@@ -1253,16 +1301,16 @@ i:hover {
         align-items: center;
         text-align: center;
         flex-direction: column-reverse;
-        
-        
+
+
     }
-    
+
     ._user {
-        
+
         color: orange;
         font-size: 3rem;
     }
-    
+
 
     /* .port {
         
@@ -1277,7 +1325,7 @@ i:hover {
         /* border:.2rem solid green; */
         color: white;
     }
-    
+
     ._text1 {
 
         margin: 1rem;
@@ -1285,23 +1333,23 @@ i:hover {
         padding: 1rem;
         color: white;
     }
-    
+
     ._text2 {
         margin: 1rem;
         font-size: 1.5rem;
         padding: 1rem;
         color: white;
     }
-    
+
     ._text3 {
         margin: 1rem;
         font-size: 1.2rem;
-    
-    
+
+
         padding: 1rem;
         color: white;
     }
-    
+
     /* body
     {
          border:.4rem solid blue; 
@@ -1311,20 +1359,20 @@ i:hover {
 
         
     } */
-    
+
     .about,
     .n {
-        
+
         border-radius: 2rem;
         background-color: #181818;
         margin: 8.5rem 1rem;
-        height:fit-content;
+        height: fit-content;
         padding: 1.2rem;
 
     }
-    
 
-    
+
+
 
     .ame {
         margin: 3rem;
@@ -1333,7 +1381,7 @@ i:hover {
         color: white;
 
     }
-    
+
     .i {
         float: right;
         color: white;
@@ -1343,42 +1391,42 @@ i:hover {
         font-size: 3rem;
     }
 
-    
+
     #_uni label:hover {
-        
+
         color: orange;
         font-size: 2rem;
         padding: 3rem;
         margin-right: 4rem;
     }
-    
+
     #uni {
         width: 85%;
-        height:100%;
+        height: 100%;
         display: none;
         position: fixed;
-        border:none;
+        border: none;
         margin-top: -1rem;
         background-color: #181212;
     }
-    
+
     #_uni {
         display: none;
-        padding:1.2rem;
-        margin-top:0rem ;
+        padding: 1.2rem;
+        margin-top: 0rem;
         position: absolute;
         width: 85%;
         /* border:.2rem solid white; */
-        height:auto;
+        height: auto;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: left;
 
     }
-    
+
     .hire {
-        
+
         border: .2rem solid orange;
         background-color: orange;
         font-size: 1.7rem;
@@ -1387,20 +1435,20 @@ i:hover {
         padding: 0.8rem;
         color: black;
         border-radius: 2rem;
-        
+
     }
-    
-    
+
+
     .ap1 {
-        min-width:0rem;
-        width:20rem ;
-        height:14rem ;
-        border-radius:2rem;
-        min-height:0rem;
+        min-width: 0rem;
+        width: 20rem;
+        height: 14rem;
+        border-radius: 2rem;
+        min-height: 0rem;
     }
-    
+
     .hire:hover {
-        
+
         border: .2rem solid white;
         background-color: orange;
         font-size: 1.7rem;
@@ -1409,69 +1457,69 @@ i:hover {
         padding: 0.8rem;
         color: black;
         border-radius: 2rem;
-        
+
     }
-    
+
     #_uni label {
-        
+
         padding: 1.8rem;
         color: white;
-        width:fit-content;
+        width: fit-content;
         font-size: 1.6rem;
-        display:inline-block;
-        margin-left:0rem;
+        display: inline-block;
+        margin-left: 0rem;
         border: none;
         /* border: .2rem solid white; */
         width: 85%;
-        
+
     }
-    
+
 
     .box {
-        
+
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 1rem;
-        min-width:auto;
-        border:.1rem solid red;
-        min-height:auto;
+        min-width: auto;
+        border: .1rem solid red;
+        min-height: auto;
         border: .1rem solid white;
         cursor: pointer;
-        
-        
+
+
     }
-    
+
     /* .box:hover {
         
     
     background-color: rgb(244, 184, 72);
     height: 6rem;
     } */
-    
+
     .ap {
         color: white;
         text-decoration: none;
         text-align: center;
         margin-top: 1rem;
         font-size: 1.5rem;
-        
+
     }
-    
+
     .nig {
-        
+
         margin-top: 1rem;
         display: flex;
-        width:20rem;
+        width: 20rem;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
     }
-    
+
     .lang {
-        
+
         border: .2rem solid white;
-    
+
         border-radius: 1rem;
         padding: .3rem;
         font-size: 1rem;
@@ -1484,10 +1532,10 @@ i:hover {
         border: none;
         margin-bottom: 5rem;
         font-size: 2rem;
-        
-        
+
+
     }
-    
+
     .resbox {
         border: .2rem solid white;
 
@@ -1497,25 +1545,25 @@ i:hover {
         text-decoration: none;
         font-size: 2rem;
     }
-    
 
-    
+
+
     .resbox a:hover {
         text-decoration: none;
         margin: 2.5rem;
         color: white;
         background-color: blue;
-        
-        
+
+
         font-size: 2rem;
     }
-    
-    
+
+
     i {
-        
+
         padding: .5rem;
         margin-top: 2rem;
-        
+
     }
 
 
@@ -1523,9 +1571,9 @@ i:hover {
         cursor: pointer;
         color: orange;
         padding: .5rem;
-        
+
     }
-    
+
     .footer {
         width: 100%;
         height: 6rem;
@@ -1543,7 +1591,7 @@ i:hover {
         font-size: 2.6rem;
 
     }
-    
+
 }
 
 @media screen and (max-width:1037px) {
