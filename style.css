@@ -1421,6 +1421,7 @@ i:hover {
         width: 85%;
         /* border:.2rem solid white; */
         height: auto;
+        z-index:1000;
         flex-direction: column;
         justify-content: center;
         align-items: center;
