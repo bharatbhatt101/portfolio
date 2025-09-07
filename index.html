@@ -18,15 +18,17 @@
 
 <body class="dark">
   <div class="header" >
-    <img src="img/bharat.png" class="port">
-
+    
     <div class="i">
-      <button class="toggle-btn" onclick="toggleTheme()">☀️</button>
-      <a class="hire" onclick="hm()">Hire me</a>
-      <i class="fa-solid fa-bars" id="aa" onclick="Open()"></i>
-      <i class="fa-solid fa-xmark" id="cls" onclick="Close()" style="display: none"></i>
+      <div><img src="img/bharat.png" class="port"></div>
+      <div><button class="toggle-btn" onclick="toggleTheme()">☀️</button></div>
+      <div><a href="img/resumeb.pdf" class="resbox" data-aos="zoom-in" download="resumeb.pdf"> Download Resume</a></div>
+      <div><a class="hire" onclick="hm()">Hire me</a></div>
+      <div><i class="fa-solid fa-bars" id="aa" onclick="Open()"></i>
+        <i class="fa-solid fa-xmark" id="cls" onclick="Close()" style="display: none"></i></div>
+        
     </div>
-
+    
     <div id="uni">
       <nav id="_uni">
         <input type="radio" id="in" name="nav" checked>
@@ -35,26 +37,29 @@
         <label for="pj" onclick="Close(), pro()">Projects</label>
         <input type="radio" id="abm" name="nav">
         <label for="abm" onclick="Close() ,abt()">About</label>
-        <input type="radio" id="rse" name="nav">
-        <label for="rse" onclick="Close(),res()">Resume</label>
+        <!-- <input type="radio" id="rse" name="nav">
+        <label for="rse" onclick="Close(),res()">Resume</label> -->
         <input type="radio" id="contt" name="nav">
         <label for="contt" onclick="Close(),con()">Contact</label>
       </nav>
     </div>
-    <nav id="main">
+    <div id="main">
       <!-- <p class="port">MY PORTFOLIO</p> -->
-      <a class="hire" onclick="hm()">Hire me</a>
-      <input type="radio" id="int" name="nav" checked>
-      <label for="int" onclick="int()">Intro</label>
-      <input type="radio" id="pjt" name="nav">
-      <label for="pjt" onclick="pro()">Projects</label>
-      <input type="radio" id="ab" name="nav">
-      <label for="ab" onclick="abt()">About</label>
-      <input type="radio" id="re" name="nav">
-      <label for="re" onclick="res()">Resume</label>
-      <input type="radio" id="cont" name="nav">
-      <label for="cont" onclick="con()">Contact</label>
-    </nav>
+      <div><img src="img/bharat.png" class="port"></div>
+      <div><button class="toggle-btn" onclick="toggleTheme()">☀️</button></div>
+      <div><a href="img/resumeb.pdf" class="resbox" data-aos="zoom-in" download="resumeb.pdf"><i class="fa-solid fa-file-pdf"></i> Download Resume</a></div>
+        <div><a class="hire" onclick="hm()">Hire me</a></div>
+      <div><input type="radio" id="int" name="nav" checked>
+      <label for="int" onclick="int()">Intro</label></div>
+      <div><input type="radio" id="pjt" name="nav">
+      <label for="pjt" onclick="pro()">Projects</label></div>
+      <div><input type="radio" id="ab" name="nav">
+      <label for="ab" onclick="abt()">About</label></div>
+      <!-- <input type="radio" id="re" name="nav">
+      <label for="re" onclick="res()">Resume</label> -->
+      <div><input type="radio" id="cont" name="nav">
+      <label for="cont" onclick="con()">Contact</label></div>
+      </div>
   </div>
 
 
@@ -70,7 +75,7 @@
     <script>
       var typed = new Typed('#typed', {
         strings: [
-
+          
           "<span class='_na'>My name is </span><br>" +
           "<span class='_user'>Bharat Bhatt</span>",
           "<span class='_na'>I am a </span><br>" +
@@ -154,7 +159,7 @@
     <!-- <h2 align="center" class="ame"></h2> -->
     <div class="_text1" >
       <div class="com" data-aos="fade-up">
-
+        
         <p class="hi">
           Hello there 👋, I am <user class="user">Bharat Bhatt</user>, a recent BCA graduate with a keen interest in Web
         Development. I have a strong
@@ -173,8 +178,8 @@
       </p>
     </div>
       <h1 class="tech">Technologies</h1>
-      <div class="mytech">
-        <div class="ml" data-aos="flip-left" data-aos-delay="200">
+      <div class="mytech" data-aos="fade-up">
+        <div class="ml">
           <div class="mylang" style="background:linear-gradient(360deg,#F06529 60%,#181818 40%);">
             <div class="tec1" id="htm" onclick="html()"></div>
           </div>
@@ -182,7 +187,7 @@
             <p>HTML</p>
           </div>
         </div>
-        <div class="ml" data-aos="flip-left" data-aos-delay="400">
+        <div class="ml">
           <div class="mylang"
             style="background:linear-gradient(360deg,#264DE4 60%,#181818 40%                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      );">
             <div class="tec1" id="css" onclick="cs()"></div>
@@ -191,7 +196,7 @@
             <p>CSS</p>
           </div>
         </div>
-        <div class="ml" data-aos="flip-left" data-aos-delay="600">
+        <div class="ml">
           <div class="mylang" style="background:linear-gradient(360deg,#F7DF1E 50%,#181818 50%);">
             <div class="tec1" id="jav" onclick="js()"></div>
           </div>
@@ -199,7 +204,7 @@
             <p>JS</p>
           </div>
         </div>
-        <div class="ml" data-aos="flip-left" data-aos-delay="800">
+        <div class="ml">
           <div class="mylang" style="background:linear-gradient(360deg,#777BB4 70%,#181818 30% );">
             <div class="tec1" id="php" onclick="ph()"></div>
           </div>
@@ -207,7 +212,7 @@
             <p>PHP</p>
           </div>
         </div>
-        <div class="ml" data-aos="flip-left" data-aos-delay="1000">
+        <div class="ml">
           <div class="mylang" style="background:linear-gradient(360deg,#00758F 50%,#181818 50% );">
             <div class="tec1" id="mys" onclick="mysq()"></div>
           </div>
@@ -215,7 +220,7 @@
             <p>MYSQL</p>
           </div>
         </div>
-        <div class="ml" data-aos="flip-left" data-aos-delay="200">
+        <div class="ml">
           <div class="mylang" style="background:linear-gradient(360deg,#283593 40%,#181818 60% );">
             <div class="tec1" id="cl" onclick="ca()"></div>
           </div>
@@ -223,7 +228,7 @@
             <p>C</p>
           </div>
         </div>
-        <div class="ml" data-aos="flip-left" data-aos-delay="400">
+        <div class="ml">
           <div class="mylang" style="background:linear-gradient(360deg,#00599C 40%,#181818 60%);">
             <div class="tec1" id="cll" onclick="caa()"></div>
           </div>
@@ -231,7 +236,7 @@
             <p>C++</p>
           </div>
         </div>
-        <div class="ml" data-aos="flip-left" data-aos-delay="600">
+        <div class="ml">
           <div class="mylang" style="background:linear-gradient(360deg,#E76F00 30%,#181818 70%);">
             <div class="tec1" id="ja" onclick="java()"></div>
           </div>
@@ -239,7 +244,7 @@
             <p>JAVA</p>
           </div>
         </div>
-        <div class="ml" data-aos="flip-left" data-aos-delay="800">
+        <div class="ml">
           <div class="mylang" style="background:linear-gradient(360deg,#3776AB 30%,#181818 70% );">
             <div class="tec1" id="p" onclick="py()"></div>
           </div>
@@ -247,7 +252,7 @@
             <p>PYTHON</p>
           </div>
         </div>
-        <div class="ml" data-aos="flip-left" data-aos-delay="1000">
+        <div class="ml">
           <div class="mylang" style="background:linear-gradient(360deg,#F05032 60%,#181818 40% );">
             <div class="tec1" id="gi" onclick="git()"></div>
           </div>
@@ -255,7 +260,7 @@
             <p>Git</p>
           </div>
         </div>
-        <div class="ml" data-aos="flip-left" data-aos-delay="200">
+        <div class="ml">
           <div class="mylang" style="background:linear-gradient(360deg,#21759B 60%,#181818 40% );">
             <div class="tec1" id="w" onclick="wp()"></div>
           </div>
@@ -263,7 +268,7 @@
             <p>WP</p>
           </div>
         </div>
-        <div class="ml" data-aos="flip-left" data-aos-delay="400">
+        <div class="ml" >
           <div class="mylang" style="background:linear-gradient(360deg,#95BF47 60%,#181818 40% );">
             <div class="tec1" id="s" onclick="sp()"></div>
           </div>
@@ -278,15 +283,14 @@
     
   </div>
 
-  <div class="about" id="res">
-    <!-- <h2 align="center" class="ame"></h2> -->
+  <!-- <h2 align="center" class="ame"></h2> -->
+  <!-- <div class="about" id="res">
     <div class="_text2">
       <object data-aos="fade-up" class="pdf-viewer" data="img/resumeb.pdf" type="application/pdf"></object><br>
-      <div><a href="img/resumeb.pdf" class="resbox" data-aos="zoom-in" download="resumeb.pdf">Download</a>
 
       </div>
     </div>
-  </div>
+  </div> -->
   <!-- <div class="m"> -->
 
   <div class="about" id="coon">
