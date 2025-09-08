@@ -84,12 +84,13 @@ body.light .lang {
 }
 
 .toggle-btn {
-    position: fixed;
-    top:20%;
-    right: 5%; 
+    /* position: fixed;
+    top:2%;
+    left: 5%;  */
     border: none;
     cursor: pointer;
-    padding: 1rem 1rem;
+    padding: .5rem .5rem;
+    top:0;
     border-radius: 50%;
     background: orange;
     color: white;
@@ -100,7 +101,7 @@ body.light .lang {
 .toggle-btn:hover{
     border:.1rem solid orange;
     border-radius: 50%;
-    padding: 1rem 1rem;
+    padding: .5rem;
        background:transparent ;
 }
 
@@ -732,12 +733,12 @@ i:hover {
     }
 
     .toggle-btn {
-    position: fixed;
-    right: 5%;
-    top:20%; 
+    /* position: fixed;
+    left: 5%;
+    top:2%;  */
     border: none;
     cursor: pointer;
-    padding: 1rem 1rem;
+    padding: .5rem;
     border-radius: 50%;
     background: orange;
     color: white;
@@ -1173,7 +1174,9 @@ i:hover {
         font-size: 56.65%;
     }
 
-    body.light .i.hire {
+    body.light .hire1,
+    body.light .resbox1
+     {
         background: white;
         color: #00d4ff;
         border: .1rem solid #ffff;
