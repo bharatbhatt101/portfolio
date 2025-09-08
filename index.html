@@ -21,13 +21,23 @@
     
     <div class="i">
       <div><img src="img/bharat.png" class="port"></div>
-      <div><button class="toggle-btn" onclick="toggleTheme()">☀️</button></div>
-      <div><a href="img/resumeb.pdf" class="resbox" data-aos="zoom-in" download="resumeb.pdf"> Download Resume</a></div>
-      <div><a class="hire" onclick="hm()">Hire me</a></div>
-      <div><i class="fa-solid fa-bars" id="aa" onclick="Open()"></i>
-        <i class="fa-solid fa-xmark" id="cls" onclick="Close()" style="display: none"></i></div>
-        
+      <div>
+        <a href="img/resumeb.pdf" class="resbox" data-aos="zoom-in" download="resumeb.pdf"> Download Resume</a>
+        <a class="resbox1"  href="resumeb.pdf" download title="Download Resume">
+          <i class="fas fa-download"></i>
+        </a>     
+      </div>
+      <div>
+        <a class="hire" onclick="hm()">Hire me</a>
+        <a class="hire1"  onclick="hm()"  title="Hire Me">
+        <i class="fas fa-user-tie"></i>
+      </a>
     </div>
+    <div><i class="fa-solid fa-bars" id="aa" onclick="Open()"></i>
+      <i class="fa-solid fa-xmark" id="cls" onclick="Close()" style="display: none"></i></div>
+      
+    </div>
+    <div><button class="toggle-btn" onclick="toggleTheme()">☀️</button></div>
     
     <div id="uni">
       <nav id="_uni">
@@ -46,7 +56,7 @@
     <div id="main">
       <!-- <p class="port">MY PORTFOLIO</p> -->
       <div><img src="img/bharat.png" class="port"></div>
-      <div><button class="toggle-btn" onclick="toggleTheme()">☀️</button></div>
+      <!-- <div><button class="toggle-btn" onclick="toggleTheme()">☀️</button></div> -->
       <div><a href="img/resumeb.pdf" class="resbox" data-aos="zoom-in" download="resumeb.pdf"><i class="fa-solid fa-file-pdf"></i> Download Resume</a></div>
         <div><a class="hire" onclick="hm()">Hire me</a></div>
       <div><input type="radio" id="int" name="nav" checked>

@@ -84,10 +84,10 @@ body.light .lang {
 }
 
 .toggle-btn {
-    /* position: fixed; */
-    /* top: 5%;
-    left: 22%; */
-    /* border: none; */
+    position: fixed;
+    top:20%;
+    right: 5%; 
+    border: none;
     cursor: pointer;
     padding: 1rem 1rem;
     border-radius: 50%;
@@ -96,18 +96,6 @@ body.light .lang {
     font-weight: bold;
 }
 
-.toggle-btn1 {
-    /* position: fixed; */
-    /* top: 5%;
-    left: 22%; */
-    /* border: none; */
-    cursor: pointer;
-    padding: 1rem 1rem;
-    border-radius: 50%;
-    background: orange;
-    color: white;
-    font-weight: bold;
-}
 
 .toggle-btn:hover{
     border:.1rem solid orange;
@@ -205,8 +193,19 @@ input[type="radio"] {
 
 input[type="radio"]:checked+label {
 
-    background-color: orange;
+     border-bottom:.1rem solid orange;
 
+}
+
+body.light input[type="radio"]:checked+label {
+
+     border-bottom:.1rem solid white;
+
+}
+
+body.light .resbox
+{
+    color:white;
 }
 
 #_uni a,
@@ -732,13 +731,26 @@ i:hover {
         border: .1rem solid #ffff;
     }
 
+    .toggle-btn {
+    position: fixed;
+    right: 5%;
+    top:20%; 
+    border: none;
+    cursor: pointer;
+    padding: 1rem 1rem;
+    border-radius: 50%;
+    background: orange;
+    color: white;
+    font-weight: bold;
+}
+
 
     body.light #aa {
 
         color: white;
     }
 
-    #main {
+    #main,.resbox1,.hire1 {
 
         display: none;
         /* opacity: 0; */
@@ -781,7 +793,7 @@ i:hover {
         width: 90%;
         margin: 5rem;
         text-align: center;
-        align-items: center;
+        align-items:center;
     }
 
     .tech {
@@ -1177,7 +1189,7 @@ i:hover {
     #main label {
 
         display: none;
-        opacity: 0;
+    
     }
 
     .pic {
@@ -1454,14 +1466,15 @@ i:hover {
         
     }
 
-    #_uni {
+    #_uni, .hire {
         display: none;
         
 
     }
 
-    .hire {
+    .hire1 {
 
+        display:flex;
         background-color:#19435d;
         border: .1rem solid white;
         font-size: 1.5rem;
@@ -1482,7 +1495,7 @@ i:hover {
         min-height: 0rem;
     }
 
-    .hire:hover {
+    .hire1:hover {
 
         border: .1rem solid orange;
         background-color: orange;
@@ -1571,23 +1584,34 @@ i:hover {
 
     }
 
-    .resbox {
-        border: .2rem solid white;
 
+    
+    .resbox1 {
+        border: .1rem solid white;
+        display: flex;
+        color: white;
         margin: 0rem;
-        height: 5rem;
+        
         padding: 1rem;
         text-decoration: none;
         font-size: 1.2rem;
     }
 
+    .resbox1 i, .hire1 i
+    {
+        margin:0;
+        padding:0;
+    }
 
+    .resbox
+    {
+        display:none;
+    }
 
-    .resbox a:hover {
+    .resbox1 a:hover {
         text-decoration: none;
         margin:0rem;
         border:.1rem solid orange;
-        color: white;
         background-color:transparent;
 
 
