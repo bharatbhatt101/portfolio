@@ -27,9 +27,8 @@ body.light .toggle-btn {
     background: white;
 }
 
-body.light .about,
 body.light #uni,
-body.light .n,
+
 body.light .tec1
  {
     color: #000000;
@@ -62,14 +61,30 @@ body.light p,
 body.light #uni label,
 body.light #main label,
 body.light ._na,
-body.light .lang,
+
 body.light .ame,
 body.light ._text1::before,
 body.light ._text2::before,
 body.light ._text3::before,
 body.light .resbox {
     color: #000000;
-    /* blue links */
+}
+body.light .lang
+{
+    color:#0077ff;
+}
+
+body.light .box
+{
+    
+    background:#ffff;
+    box-shadow: 0 .4rem 1rem rgba(0,0,0,0.1);
+}
+
+body.light .about,
+body.light .n
+{
+    background-color:white;
 }
 
 
@@ -79,9 +94,6 @@ body.light .typed-cursor {
     color: #0077ff;
 }
 
-body.light .lang {
-    border: .1rem solid black;
-}
 
 .toggle-btn {
     /* position: fixed;
