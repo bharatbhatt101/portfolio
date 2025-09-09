@@ -254,60 +254,27 @@ i {
 
 
     margin: 3rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: white;
-    overflow-x: scroll;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(28rem,1fr));
+    gap:2rem;
+    /* overflow-x: scroll; */
     /* scrollbar-width: thin; */
 
 
 }
 
 
-._text::-webkit-scrollbar {
-    height: 1rem;
-    width: 1rem;
-}
-
-
-._text::-webkit-scrollbar-track {
-    background: #1e1e1e;
-    border-radius: 1rem;
-}
-
-
-._text::-webkit-scrollbar-thumb {
-    background: linear-gradient(45deg, #ff7e5f, #feb47b);
-    border-radius: 1rem;
-    border: .2rem solid #1e1e1e;
-}
-
-
-._text::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(45deg, #edc10e, #dd2476);
-}
-
 
 
 
 .box {
-    width: auto;
-    min-width: 32rem;
-    min-height: 35rem;
-    max-height: fit-content;
-    max-height: fit-content;
-    height: auto;
-    border-radius: 2rem;
-    cursor: pointer;
-    max-width: fit-content;
-    display: flex;
-    margin: 1.2rem;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-    padding: 1.5rem;
+    border-radius: 1.2rem;
+    /* cursor: pointer; */
+    padding: 2rem;
     border: .1rem solid #181818;
+    box-shadow: 0 .4rem 1rem rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    /* border:.4rem solid red ; */
     background-color: #0015227d;
 
 
@@ -320,25 +287,12 @@ i {
 
 .ap {
     color: white;
-    text-decoration: none;
+    /* text-decoration: none; */
+    margin-bottom: 1rem;
     font-size: 2.5rem;
 }
 
-.ap1 {
-    min-width: 25rem;
-    min-height: 25rem;
-    max-width: 100%;
-    background-color: #181818;
-    border-radius: 2rem;
-    width: fit-content;
-    display: block;
-}
 
-.ap1:hover {
-
-
-    opacity: 0.8;
-}
 
 .ap2 {
 
@@ -358,15 +312,21 @@ i {
 }
 
 .nig {
-    display: flex;
+    /* display: flex; */
+    color: white;
+      margin-bottom: 1.5rem;
+    font-family:Arial, Helvetica, sans-serif;
+    /* text-decoration: none; */
+    font-size: 1.5rem;
 }
 
 .lang {
-    border: .2rem solid white;
+    width:fit-content;
+    font-size:2rem;
     border-radius: 2rem;
     padding: .5rem;
-    margin: .2rem;
-    color: white;
+    cursor: pointer;
+    color:#0077ff;
 }
 
 .tec1 {
@@ -814,42 +774,34 @@ i:hover {
     }
 
     .box {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        
         padding: 2rem;
         border: .1rem solid #19435d;
-
-
+        
+        
     }
 
-    .box:hover {
-        width: 100%;
-        cursor: pointer;
-
-    }
-
-
+    
+    
 
     .name {
         padding: .5rem;
         margin-bottom: 5rem;
 
-
-
+        
+        
     }
-
+    
     .in1 {
-
+        
 
         font-size: 1.5rem;
         z-index: 10;
         border-radius: 1rem;
     }
-
+    
     .in2 {
-
+        
 
         border-radius: 1rem;
         font-size: 1.5rem;
@@ -876,7 +828,7 @@ i:hover {
         background-color:orange;
         color: white;
     }
-
+    
     ._na {
         color: white;
         margin: 2.5rem;
@@ -907,38 +859,30 @@ i:hover {
         border:.1rem solid white;
         } */
 
-
+        
     ._text {
         margin: 1rem;
         font-size: 1.5rem;
-        max-height: 25rem;
+
         padding: 1.5rem;
         color: white;
-        overflow-y: scroll;
-        overflow-x: hidden;
-        scrollbar-width: thin;
-        flex-direction: column;
     }
-
-    ::-webkit-scrollbar {
-
-        scrollbar-gutter: blue;
-    }
-
+    
+    
     ._text1 {
         margin: 1rem;
         font-size: 1.5rem;
-        padding: 1.5rem;
+        padding: 2rem;
         color: white;
     }
-
+    
     ._text2 {
         margin: 1rem;
         font-size: 1.5rem;
         padding: 1.5rem;
         color: white;
     }
-
+    
     ._text3 {
         margin: 1rem;
         font-size: 1.5rem;
@@ -949,22 +893,24 @@ i:hover {
         padding: 1.5rem;
         color: white;
     }
-
+    
 
     .ap {
         color: white;
         text-decoration: none;
         font-size: 2.3rem;
-
+        
     }
 
-
-
+    
+    
     .lang {
-        border: .2rem solid white;
+        border:none;
         border-radius: 1rem;
         padding: .3rem;
-        color: white;
+        width:fit-content;
+        color:#0077ff;
+        cursor: pointer;
     }
 
 
@@ -1528,53 +1474,36 @@ i:hover {
 
     .box {
 
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 1rem;
-        min-width: auto;
-        border: .1rem solid red;
-        min-height: auto;
-        border: .1rem solid white;
-        cursor: pointer;
-
-
-    }
-
-    /* .box:hover {
+        display:grid;
         
     
-    background-color: rgb(244, 184, 72);
-    height: 6rem;
-    } */
-
+        
+        
+    }
+    
     .ap {
         color: white;
-        text-decoration: none;
-        text-align: center;
-        margin-top: 1rem;
+        /* text-decoration: none; */
+        /* text-align: center; */
+        /* margin-top: 1rem; */
         font-size: 1.5rem;
 
     }
 
     .nig {
 
-        margin-top: 1rem;
         display: flex;
-        width: 20rem;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
     }
-
+    
     .lang {
-
-        border: .2rem solid white;
-
+        
+        /* border: .2rem solid white; */
+        
+        cursor: pointer;
         border-radius: 1rem;
         padding: .3rem;
-        font-size: 1rem;
-        color: white;
+        font-size: 1.2rem;
+        color:#0077ff;
     }
 
     .pdf-viewer {
