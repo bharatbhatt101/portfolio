@@ -401,7 +401,8 @@ i {
 
     padding: 2rem;
     color: white;
-    border: .1rem solid white;
+    border: .1rem solid orange;
+    border-radius:.5rem;
 }
 
 /* .vid
@@ -712,8 +713,8 @@ label {
     margin-top: -3rem;
 }
 
-input:focus~label,
-input:valid~label {
+.in1 input:focus~label,
+.in1 input:valid~label {
     margin-top: -5rem;
     background-color: #181818;
     font-size: 1rem;
@@ -1158,6 +1159,13 @@ i:hover {
 
     }
 
+    label {
+    margin-left: 2.2rem;
+    
+    /* border:.1rem solid white; */
+    font-size: 2rem;
+}
+
     .lab {
         margin-left: 0;
         padding-left: .5rem;
@@ -1178,8 +1186,8 @@ i:hover {
         outline: none;
     }
 
-    input:focus~label,
-    input:valid~label {
+   .in1 input:focus~label,
+    .in1 input:valid~label {
         margin-top: -5rem;
         background-color: #181818;
         font-size: 1rem;
