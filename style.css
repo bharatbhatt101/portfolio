@@ -155,7 +155,7 @@ body {
 #main {
     /* border:.2rem solid red; */
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
     flex-direction: row;
 
@@ -242,19 +242,29 @@ i {
 
 .pic {
     width: 40rem;
-    border-radius: 50%;
-    background: orange;
+    border-radius: 50% 40%;
+    /* background: orange; */
+       background:linear-gradient(
+        160deg,
+        #ffbf47,
+        #ff8c00,
+        #ff5e00
+    );
+
     margin-top: 10rem;
     margin-right: 8rem;
+    /* height: 20rem; */
     /* border: 1rem solid white; */
     float: right;
+    box-shadow: 0 2rem 4rem rgba(255, 152, 0, .35);
+    backdrop-filter:blur(1.8rem);
 
 
 
 }
 
 #img {
-    width:100%;
+    width: 100%;
     border-radius: 50%;
 
 }
@@ -266,6 +276,7 @@ i {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
     gap: 2rem;
+    /* border: .1rem solid white; */
     /* overflow-x: scroll; */
     /* scrollbar-width: thin; */
 
@@ -288,11 +299,6 @@ i {
 
 
 }
-
-
-
-
-
 
 .ap {
     color: white;
@@ -334,41 +340,55 @@ i {
     font-size: 2rem;
     border-radius: 2rem;
     padding: .5rem;
+    /* border: .1rem solid white; */
     cursor: pointer;
     color: #0077ff;
 }
 
 .tec1 {
-    /* padding: 1.8rem; */
+    /* padding: 1.8rem;  */
     cursor: pointer;
-    width: 3rem;
-    height: 3rem;
-    /* font-size: 1.2rem; */
-    background-color: #181818;
+    width: 4rem;
+    height: 4rem;
+    font-size: 1.2rem;
+    background-color: #1c1c1c;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 1rem;
-    border: .2rem solid #181212;
-    border-radius: 50%;
+    /* border: .2rem solid #181212; */
+    border-radius: .5rem;
+}
+
+.tec1 img {
+
+    width: 100%;
+    height: auto;
 }
 
 .mylang {
-    border: .2rem solid #181212;
-    border-radius: 50%;
-    margin: 2rem;
+
+    /* border: .2rem solid #181212; */
+    border-radius: .5rem;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 100%;
+    background-color: #141313;
+    /* margin: 2rem; */
 
 }
 
 
 ._text1 {
 
-    margin: 3rem;
+    /* margin: 3rem; */
     display: flex;
     justify-content: center;
     align-items: center;
+    /* border: .1rem solid white; */
     flex-direction: column;
-    font-size: 1rem;
+    font-size: 1.5rem;
     padding: 1.5rem;
     color: white;
 }
@@ -388,21 +408,15 @@ i {
 ._text3 {
 
 
-    margin: 6rem;
+    /* border: .1rem solid white;  */
+    width: 100%;
+    margin: 2rem;
+    padding: 1.5rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5rem;
-
-    /* width: fit-content; */
-    gap: 1.5rem;
-
-
-    padding: 2rem;
-    color: white;
-    border: .1rem solid orange;
-    border-radius:.5rem;
+    background-color: #282727;
+    gap: 2rem;
+    border-radius: 1rem;
 }
 
 /* .vid
@@ -425,20 +439,21 @@ video
 } */
 
 .in1 {
+
     width: 100%;
     padding-left: 2rem;
-    font-size: 2rem;
-    border: .1rem solid white;
-
+    font-size: 1.5rem;
+    /* border: .1rem solid white; */
     height: 4rem;
     background: transparent;
     border-radius: .8rem;
-    position: relative;
-    color: orange;
+    /* position: relative; */
+    color: white;
+
 }
 
 
-
+/* 
 .in2 {
 
     padding-left: 2rem;
@@ -446,17 +461,19 @@ video
     text-align: start;
     width: 30rem;
     height: 10rem;
-    /* border:.1rem solid white; */
+    border:.1rem solid white;
     margin: 2rem;
     border-radius: 2rem;
 
 
-}
+} */
 
 .in3 {
+
     width: 100%;
     height: 4rem;
     cursor: pointer;
+    margin-bottom: 3.5rem;
     border-radius: 1rem;
     background-color: orange;
     color: white;
@@ -495,8 +512,6 @@ video
     border: .1rem solid orange;
     border-radius: 1rem;
     background-color: transparent;
-
-
     font-size: 2rem;
 }
 
@@ -572,15 +587,19 @@ video
 .tech {
     margin-top: 3.5rem;
     font-size: 4rem;
+    height: 4rem;
+    /* border: .1rem solid white; */
     margin-bottom: 3.5rem;
 }
 
 .mytech {
-    display: flex;
-    justify-content: left;
-    /* border:.1rem solid white; */
-    width: 50%;
-    flex-wrap: wrap;
+    /* border: .1rem solid white; */
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 2rem;
+    /* flex-wrap: wrap; */
     text-align: center;
     align-items: center;
 }
@@ -635,7 +654,7 @@ video
 
 ._text3::before {
     content: "📩Contact Me";
-
+    /* border:.1rem solid white; */
     margin: 4rem;
     margin-top: 3rem;
     font-size: 3rem;
@@ -647,7 +666,7 @@ video
 
     border-radius: 1rem;
     background-color: #181818;
-    margin: 10rem 5rem;
+    margin: 8rem 4rem;
     padding: 2rem;
     /* border:.1rem solid white; */
 
@@ -705,21 +724,23 @@ label {
     font-size: 2rem;
     display: flex;
     align-items: center;
-    background-color: #181818;
+    background-color: #282727;
     position: absolute;
-    border-radius: 1rem;
+    color: white;
+    /* border-radius: 1rem; */
     margin-left: .5rem;
     transition: all 1s ease-in-out;
     margin-top: -3rem;
-    cursor:default;
+    cursor: default;
 }
 
 .in1:focus~label,
 .in1:valid~label {
     margin-top: -5rem;
-    background-color: #181818;
+    background-color: #282727;
     font-size: 1rem;
     height: auto;
+    color: white;
     transition: all 1s ease-in-out;
     padding: .5rem;
 }
@@ -805,7 +826,7 @@ i:hover {
 
     .pic {
         width: 25rem;
-        border-radius: 50%;
+        border-radius: 50% 40%;
         margin-left: 5rem;
         margin-top: 5rem;
         margin-bottom: 5rem;
@@ -834,13 +855,16 @@ i:hover {
     }
 
     .mytech {
-        display: flex;
-        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+        /* justify-content: center; */
         flex-wrap: wrap;
-        width: 90%;
+        /* width: 90%; */
         margin: 5rem;
-        text-align: center;
-        align-items: center;
+        /* border:.1rem solid white; */
+
+        /* text-align: center;
+        align-items: center; */
     }
 
     .tech {
@@ -976,6 +1000,7 @@ i:hover {
         display: flex;
         justify-content: center;
         align-items: center;
+        /* border:.1rem solid white; */
         text-align: left;
         padding: 1.5rem;
         color: white;
@@ -1161,11 +1186,11 @@ i:hover {
     }
 
     label {
-    margin-left: 2.2rem;
-    
-    /* border:.1rem solid white; */
-    font-size: 2rem;
-}
+        margin-left: 2.2rem;
+
+        /* border:.1rem solid white; */
+        font-size: 2rem;
+    }
 
     .lab {
         margin-left: 0;
@@ -1187,7 +1212,7 @@ i:hover {
         outline: none;
     }
 
-   .in1:focus~label,
+    .in1:focus~label,
     .in1:valid~label {
         margin-top: -5rem;
         background-color: #181818;
@@ -1266,7 +1291,7 @@ i:hover {
 
     .pic {
         width: 25rem;
-        border-radius: 50%;
+        border-radius: 50% 40%;
         margin-left: 7rem;
         margin-top: 0rem;
     }

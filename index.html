@@ -9,35 +9,36 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="style.css" />
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-   
+
   <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 
 </head>
 
 <body class="dark">
-  <div class="header" >
-    
+  <div class="header">
+
     <div class="i">
       <div><img src="img/bharat.png" class="port"></div>
       <div>
         <a href="img/resumeb.pdf" class="resbox" data-aos="zoom-in" download="resumeb.pdf"> Download Resume</a>
-        <a class="resbox1"  href="resumeb.pdf" download title="Download Resume">
+        <a class="resbox1" href="resumeb.pdf" download title="Download Resume">
           <i class="fas fa-download"></i>
-        </a>     
+        </a>
       </div>
       <div>
         <a class="hire" onclick="hm()">Hire me</a>
-        <a class="hire1"  onclick="hm()"  title="Hire Me">
-        <i class="fas fa-user-tie"></i>
-      </a>
+        <a class="hire1" onclick="hm()" title="Hire Me">
+          <i class="fas fa-user-tie"></i>
+        </a>
+      </div>
+      <div><i class="fa-solid fa-bars" id="aa" onclick="Open()"></i>
+        <i class="fa-solid fa-xmark" id="cls" onclick="Close()" style="display: none"></i>
+      </div>
+
     </div>
-    <div><i class="fa-solid fa-bars" id="aa" onclick="Open()"></i>
-      <i class="fa-solid fa-xmark" id="cls" onclick="Close()" style="display: none"></i></div>
-      
-    </div>
-    
+
     <div id="uni">
       <nav id="_uni">
         <input type="radio" id="in" name="nav" checked>
@@ -50,42 +51,47 @@
         <label for="rse" onclick="Close(),res()">Resume</label> -->
         <input type="radio" id="contt" name="nav">
         <label for="contt" onclick="Close(),con()">Contact</label>
-        
+
       </nav>
     </div>
     <div id="main">
       <!-- <p class="port">MY PORTFOLIO</p> -->
       <div><img src="img/bharat.png" class="port"></div>
       <!-- <div><button class="toggle-btn" onclick="toggleTheme()">☀️</button></div> -->
-      <div><a href="img/resumeb.pdf" class="resbox" data-aos="zoom-in" download="resumeb.pdf"><i class="fa-solid fa-file-pdf"></i> Download Resume</a></div>
-        <div><a class="hire" onclick="hm()">Hire me</a></div>
+      <div><a href="img/resumeb.pdf" class="resbox" data-aos="zoom-in" download="resumeb.pdf"><i
+            class="fa-solid fa-file-pdf"></i> Download Resume</a></div>
+      <div><a class="hire" onclick="hm()">Hire me</a></div>
       <div><input type="radio" id="int" name="nav" checked>
-      <label for="int" onclick="int()">Intro</label></div>
+        <label for="int" onclick="int()">Intro</label>
+      </div>
       <div><input type="radio" id="pjt" name="nav">
-      <label for="pjt" onclick="pro()">Projects</label></div>
+        <label for="pjt" onclick="pro()">Projects</label>
+      </div>
       <div><input type="radio" id="ab" name="nav">
-      <label for="ab" onclick="abt()">About</label></div>
+        <label for="ab" onclick="abt()">About</label>
+      </div>
       <!-- <input type="radio" id="re" name="nav">
       <label for="re" onclick="res()">Resume</label> -->
       <div><input type="radio" id="cont" name="nav">
-      <label for="cont" onclick="con()">Contact</label></div>
+        <label for="cont" onclick="con()">Contact</label>
       </div>
     </div>
-    
-    
-    <div class="n" data-aos="fade-up">
+  </div>
+
+
+  <div class="n" data-aos="fade-up">
 
 
     <div class="typing name">
       <span id="typed"></span>
     </div>
-    
+
     <!-- Typed.js CDN -->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script>
       var typed = new Typed('#typed', {
         strings: [
-          
+
           "<span class='_na'>My name is </span><br>" +
           "<span class='_user'>Bharat Bhatt</span>",
           "<span class='_na'>I am a </span><br>" +
@@ -101,28 +107,31 @@
       <img id="img" src="img/bharat.png" alt="" />
     </div>
   </div>
-  
-  
+
+
   <div class="about" id="pro">
     <h2 align="center" class="ame">🚀 Projects</h2>
-    <div class="_text" >
+    <div class="_text">
       <div class="box" data-aos="zoom-in">
         <!-- <div><img src="img/image2.png" class="ap1"></div> -->
         <div class="ap">E-Medical Service Website</div>
         <div class="nig">
-          A responsive web app for uploading medical reports, booking doctor consultations, and accessing health services easily online. Built using HTML, CSS, and JavaScript,Php and Mysql.
+          A responsive web app for uploading medical reports, booking doctor consultations, and accessing health
+          services easily online. Built using HTML, CSS, and JavaScript,Php and Mysql.
         </div>
-          <div class="lang" onclick="pro1()">
-            View Project →
-          </div>
+        <div class="lang" onclick="pro1()">
+          View Project →
+        </div>
       </div>
       <div class="box" data-aos="zoom-in">
         <!-- <div><img src="img/image4.png" class="ap1"></div> -->
         <div class="ap">E-Commerce Website</div>
         <div class="nig">
-          3 Men's Suits offers a wide selection of men's suits, from casual two-piece sets to formal tuxedos, all at affordable prices. With a focus on quality and customer service, they provide tailored options for every occasion.
+          3 Men's Suits offers a wide selection of men's suits, from casual two-piece sets to formal tuxedos, all at
+          affordable prices. With a focus on quality and customer service, they provide tailored options for every
+          occasion.
         </div>
-          <!-- <a href=""><button>Open</button></a> -->
+        <!-- <a href=""><button>Open</button></a> -->
         <div class="lang" onclick="pro1()">View Project →</div>
       </div>
 
@@ -131,15 +140,17 @@
         <!-- </div> -->
         <div class="ap">Amazon Clone</div>
         <div class="nig">
-          A responsive e-commerce website replicating Amazon's core features, built using HTML, CSS, and JavaScript.Designed to demonstrate proficiency in front-end development and user interface design.
+          A responsive e-commerce website replicating Amazon's core features, built using HTML, CSS, and
+          JavaScript.Designed to demonstrate proficiency in front-end development and user interface design.
         </div>
-          <div class="lang" onclick="pro2()">View Project →</div>
+        <div class="lang" onclick="pro2()">View Project →</div>
       </div>
       <div class="box" data-aos="zoom-in">
         <!-- <div><img src="img/imag1.png" class="ap1"></div> -->
         <div class="ap">WhatsApp clone</div>
         <div class="nig">
-          A responsive web application replicating WhatsApp's core features using HTML, CSS, and JavaScript. It includes chat interface, contact list, and messages. Designed to demonstrate proficiency in Web dev.
+          A responsive web application replicating WhatsApp's core features using HTML, CSS, and JavaScript. It includes
+          chat interface, contact list, and messages. Designed to demonstrate proficiency in Web dev.
         </div>
         <div class="lang" onclick="pro3()">View Project →</div>
       </div>
@@ -150,131 +161,117 @@
           <b class="lang">HTML</b><b class="lang">CSS</b><b class="lang">JAVASCRIPT</b>
         </div>
       </div> -->
-    </div> 
+    </div>
     <center>
       <div><a href="more.html"><button data-aos="zoom-in" class="batt">More Projects</button></a></div>
-    </div>
+  </div>
   <div class="about" id="abme">
     <!-- <h2 align="center" class="ame"></h2> -->
-    <div class="_text1" >
+    <div class="_text1">
       <div class="com" data-aos="fade-up">
-        
+
         <p class="hi">
-          Hello there 👋, I am <user class="user">Bharat Bhatt</user>, a BCA graduate and Web Developer with practical experience in designing and developing responsive, user-friendly websites. I have a strong foundation in HTML, CSS, JavaScript, PHP, and MySQL, along with hands-on experience with Shopify, WordPress, Git, and GitHub.
+          Hello there 👋, I am <user class="user">Bharat Bhatt</user>, a BCA graduate and Web Developer with practical
+          experience in designing and developing responsive, user-friendly websites. I have a strong foundation in HTML,
+          CSS, JavaScript, PHP, and MySQL, along with hands-on experience with Shopify, WordPress, Git, and GitHub.
 
-Currently, I am working as a Business Development Associate at Accresense Technology, where I contribute to website design and development, lead generation, data mining, SEO, social media marketing, and video editing. This experience has helped me strengthen both my technical and professional skills while working on real-world business requirements.
+          Currently, I am working as a Business Development Associate at Accresense Technology, where I contribute to
+          website design and development, lead generation, data mining, SEO, social media marketing, and video editing.
+          This experience has helped me strengthen both my technical and professional skills while working on real-world
+          business requirements.
 
-I have worked on several projects, including E-Medical Services, Shopify-based e-commerce websites, and restaurant and café websites. Through these projects, I have gained practical experience in responsive design, UI/UX optimization, database management, debugging, and website performance improvement.
+          I have worked on several projects, including E-Medical Services, Shopify-based e-commerce websites, and
+          restaurant and café websites. Through these projects, I have gained practical experience in responsive design,
+          UI/UX optimization, database management, debugging, and website performance improvement.
 
-I am passionate about web development and continuously strive to expand my skills by learning modern technologies and taking on new challenges. My goal is to contribute to meaningful projects, deliver high-quality digital experiences, and continue growing as a professional web developer.
+          I am passionate about web development and continuously strive to expand my skills by learning modern
+          technologies and taking on new challenges. My goal is to contribute to meaningful projects, deliver
+          high-quality digital experiences, and continue growing as a professional web developer.
 
-      </p>
- 
-    </div>
+        </p>
+
+      </div>
       <h1 class="tech">Technologies</h1>
       <div class="mytech" data-aos="fade-up">
-        <div class="ml">
-          <div class="mylang" style="background:linear-gradient(360deg,#F06529 60%,#181818 40%);">
-            <div class="tec1" id="htm" onclick="html()"></div>
-          </div>
+        <div class="mylang">
+          <div class="tec1" id="htm" onclick="html()"><img src="img/VS.svg" alt=""></div>
           <div>
-            <p>HTML</p>
+            <p>Visual Studio Code</p>
           </div>
         </div>
-        <div class="ml">
-          <div class="mylang"
-            style="background:linear-gradient(360deg,#264DE4 60%,#181818 40%                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      );">
-            <div class="tec1" id="css" onclick="cs()"></div>
-          </div>
-          <div>
-            <p>CSS</p>
-          </div>
-        </div>
-        <div class="ml">
-          <div class="mylang" style="background:linear-gradient(360deg,#F7DF1E 50%,#181818 50%);">
-            <div class="tec1" id="jav" onclick="js()"></div>
-          </div>
-          <div>
-            <p>JS</p>
-          </div>
-        </div>
-        <div class="ml">
-          <div class="mylang" style="background:linear-gradient(360deg,#777BB4 70%,#181818 30% );">
-            <div class="tec1" id="php" onclick="ph()"></div>
-          </div>
-          <div>
-            <p>PHP</p>
-          </div>
-        </div>
-        <div class="ml">
-          <div class="mylang" style="background:linear-gradient(360deg,#00758F 50%,#181818 50% );">
-            <div class="tec1" id="mys" onclick="mysq()"></div>
-          </div>
-          <div>
-            <p>MYSQL</p>
-          </div>
-        </div>
-        <div class="ml">
-          <div class="mylang" style="background:linear-gradient(360deg,#283593 40%,#181818 60% );">
-            <div class="tec1" id="cl" onclick="ca()"></div>
-          </div>
-          <div>
-            <p>C</p>
-          </div>
-        </div>
-        <div class="ml">
-          <div class="mylang" style="background:linear-gradient(360deg,#00599C 40%,#181818 60%);">
-            <div class="tec1" id="cll" onclick="caa()"></div>
-          </div>
-          <div>
-            <p>C++</p>
-          </div>
-        </div>
-        <div class="ml">
-          <div class="mylang" style="background:linear-gradient(360deg,#E76F00 30%,#181818 70%);">
-            <div class="tec1" id="ja" onclick="java()"></div>
-          </div>
-          <div>
-            <p>JAVA</p>
-          </div>
-        </div>
-        <div class="ml">
-          <div class="mylang" style="background:linear-gradient(360deg,#3776AB 30%,#181818 70% );">
-            <div class="tec1" id="p" onclick="py()"></div>
-          </div>
-          <div>
-            <p>PYTHON</p>
-          </div>
-        </div>
-        <div class="ml">
-          <div class="mylang" style="background:linear-gradient(360deg,#F05032 60%,#181818 40% );">
-            <div class="tec1" id="gi" onclick="git()"></div>
-          </div>
+
+        <div class="mylang">
+          <div class="tec1" id="css" onclick="cs()"><img src="img/Git.svg" alt=""></div>
           <div>
             <p>Git</p>
           </div>
         </div>
-        <div class="ml">
-          <div class="mylang" style="background:linear-gradient(360deg,#21759B 60%,#181818 40% );">
-            <div class="tec1" id="w" onclick="wp()"></div>
-          </div>
+        <div class="mylang">
+          <div class="tec1" id="jav" onclick="js()"><img src="img/Canva.svg" alt=""></div>
           <div>
-            <p>WP</p>
+            <p>Canva</p>
           </div>
         </div>
-        <div class="ml" >
-          <div class="mylang" style="background:linear-gradient(360deg,#95BF47 60%,#181818 40% );">
-            <div class="tec1" id="s" onclick="sp()"></div>
-          </div>
+
+        <div class="mylang">
+            <div class="tec1" id="w" onclick="wp()"><img src="img/WP.svg" alt=""></div>
           <div>
-            <p>SHOPIFY</p>
+            <p>WORDPRESS</p>
           </div>
         </div>
-        
+        <div class="mylang">
+          <div class="tec1" id="php" onclick="ph()"><img src="img/HTML.svg" alt=""></div>
+          <div>
+            <p>HTML</p>
+          </div>
+        </div>
+        <div class="mylang">
+          <div class="tec1" id="mys" onclick="mysq()"><img src="img/CSS.svg" alt=""></div>
+          <div>
+            <p>CSS</p>
+          </div>
+        </div>
+        <div class="mylang">
+          <div class="tec1" id="cl" onclick="ca()"><img src="img/JS.svg" alt=""></div>
+          <div>
+            <p>JAVASCRIPT</p>
+          </div>
+        </div>
+        <div class="mylang">
+          <div class="tec1" id="cll" onclick="caa()"><img src="img/PHP.svg" alt=""></div>
+          <div>
+            <p>PHP</p>
+          </div>
+        </div>
+        <div class="mylang">
+          <div class="tec1" id="ja" onclick="java()"><img src="img/MYSQL.svg" alt=""></div>
+          <div>
+            <p>MYSQL</p>
+          </div>
+        </div>
+        <div class="mylang">
+          <div class="tec1" id="p" onclick="py()"><img src="img/C.svg" alt=""></div>
+          <div>
+            <p>C</p>
+          </div>
+        </div>
+          <div class="mylang">
+            <div class="tec1" id="gi" onclick="git()"><img src="img/C++.svg" alt=""></div>
+          <div>
+            <p>C++</p>
+          </div>
+        </div>
+          <div class="mylang">
+            <div class="tec1" id="s" onclick="sp()"><img src="img/Java.svg" alt=""></div>
+          <div>
+            <p>JAVA</p>
+          </div>
+        </div>
+
       </div>
     </div>
-      
-    
+
+
   </div>
 
   <!-- <h2 align="center" class="ame"></h2> -->
@@ -287,31 +284,33 @@ I am passionate about web development and continuously strive to expand my skill
   </div> -->
   <!-- <div class="m"> -->
 
-    <div class="about" id="coon">
-      
+  <div class="about" id="coon">
 
-      <form method="post" name="con_form" id="contact-form">
+
+    <form method="post" name="con_form" id="contact-form">
       <div class="_text3" data-aos="fade-up">
-          <div><input type="text" name="from_name"  id="nam" class="in1" required /><br />
-          <label  class="lab" for="nam">Name</label></div>
-        <div><input type="email" name="from_email"  id="na" class="in1" required /><br />
-        <label class="lab"  for="na">Email</label></div>
+        <div><input type="text" name="from_name" id="nam" class="in1" required />
+          <label class="lab" for="nam">Name</label>
+        </div>
+        <div><input type="email" name="from_email" id="na" class="in1" required />
+          <label class="lab" for="na">Email</label>
+        </div>
         <!-- <label for="mess">Message:</label><br /> -->
         <!-- <input type="text" id="mess" name="message" class="in2" value="Your message" required /><br /> -->
 
         <input type="submit" class="in3" value="Submit">
       </div>
     </form>
-      
+
   </div>
 
   <div class="footer">
     <div class="facebook"><a href="https://www.facebook.com/bharat.bhatt.94651774/"><i
           class="fa-brands fa-facebook i1"></i></a></div>
-          <div class="github"><a href="https://github.com/bharatbhatt101"><i class="fa-brands fa-github i1"></i></a></div>
-          <div class="gmail"><a href="mailto:bharatbhatt2003bk@gmail.com"><i class="fa-solid fa-envelope i1"></i></a></div>
-          <div><button class="toggle-btn" onclick="toggleTheme()">☀️</button></div>
-        </div>
+    <div class="github"><a href="https://github.com/bharatbhatt101"><i class="fa-brands fa-github i1"></i></a></div>
+    <div class="gmail"><a href="mailto:bharatbhatt2003bk@gmail.com"><i class="fa-solid fa-envelope i1"></i></a></div>
+    <div><button class="toggle-btn" onclick="toggleTheme()">☀️</button></div>
+  </div>
   <!-- </div> -->
 </body>
 
@@ -425,37 +424,37 @@ I am passionate about web development and continuously strive to expand my skill
     window.location.href = "#coon";
   }
 
-  
- const savedTheme = localStorage.getItem("theme") || "dark";
-    document.body.className = savedTheme;
 
-    const btn = document.querySelector(".toggle-btn");
-    btn.textContent = savedTheme === "dark" ? "☀️" : "🌙";
+  const savedTheme = localStorage.getItem("theme") || "dark";
+  document.body.className = savedTheme;
 
-    function toggleTheme() {
-      if (document.body.classList.contains("light")) {
-        document.body.className = "dark";
-        btn.textContent = "☀️";
-        localStorage.setItem("theme", "dark");
-      } else {
-        document.body.className = "light";
-        btn.textContent = "🌙";
-        localStorage.setItem("theme", "light");
-      }
+  const btn = document.querySelector(".toggle-btn");
+  btn.textContent = savedTheme === "dark" ? "☀️" : "🌙";
+
+  function toggleTheme() {
+    if (document.body.classList.contains("light")) {
+      document.body.className = "dark";
+      btn.textContent = "☀️";
+      localStorage.setItem("theme", "dark");
+    } else {
+      document.body.className = "light";
+      btn.textContent = "🌙";
+      localStorage.setItem("theme", "light");
     }
+  }
 
-     
+
   AOS.init();
 
 </script>
 
 <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 <script>
-  (function() {
+  (function () {
     emailjs.init("wvRCZ9dmxUHP2dxQ9"); // Replace with your EmailJS User ID
   })();
 
-  document.getElementById("contact-form").addEventListener("submit", function(e) {
+  document.getElementById("contact-form").addEventListener("submit", function (e) {
     e.preventDefault();
 
     emailjs.sendForm("service_lsr4sil", "template_yb11sqp", this)
