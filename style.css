@@ -902,22 +902,7 @@ i:hover {
 
     }
 
-    .in1 {
 
-
-        font-size: 1.5rem;
-        z-index: 10;
-        border-radius: 1rem;
-    }
-
-    .in2 {
-
-
-        border-radius: 1rem;
-        font-size: 1.5rem;
-
-
-    }
 
 
     .ap1 {
@@ -927,18 +912,11 @@ i:hover {
         background-color: #181818;
         border-radius: 2rem;
         width: fit-content;
+        /* border: .1rem solid white; */
         display: block;
     }
 
-    .in3 {
-        width: 30rem;
-        height: 4rem;
-        cursor: pointer;
-        border-radius: 1rem;
-        background-color: orange;
-        color: white;
-    }
-
+  
     ._na {
         color: white;
         margin: 2.5rem;
@@ -995,11 +973,12 @@ i:hover {
     }
 
     ._text3 {
-        margin: 1rem;
+        /* margin: 1rem; */
         font-size: 1.5rem;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        /* justify-content: center; */
+        justify-self:center; 
+        /* align-items: center; */
         /* border:.1rem solid white; */
         text-align: left;
         padding: 1.5rem;
@@ -1381,38 +1360,14 @@ i:hover {
     .in1 {
 
 
-        width: auto;
+        /* width: auto; */
         font-size: 1.5rem;
 
         border-radius: 1rem;
     }
 
-    .in2 {
-
-        width: auto;
-        border-radius: 1rem;
-        font-size: 1.5rem;
-
-
-    }
-
-    .in3 {
-
-        min-width: auto;
-        width: 20rem;
-        min-height: 3rem;
-        border: .1rem solid white;
-        cursor: pointer;
-        /* border:.1rem solid red; */
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 1rem;
-        font-size: 1.5rem;
-        padding: 0rem;
-        background-color: orange;
-        color: white;
-    }
+ 
+   
 
     ._na {
         color: white;
